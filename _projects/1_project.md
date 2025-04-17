@@ -112,7 +112,7 @@ By understanding the distinct purpose and focus of standards such as ISO 27001, 
     </div>
 </div>
 
-<div class="row">
+<div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="/assets/img/iso_22302p112.png" title="ISO 22301" class="img-fluid rounded z-depth-1" %}
     </div>
