@@ -9,6 +9,11 @@ related_publications: true
 images:
   lightbox2: true
 ---
+To provide a practical introduction to cybersecurity, the following video presents an analysis of a real malware sample. It covers fundamental aspects of information security, including data protection, system integrity, and network defense. This serves as a foundation for understanding the importance of implementing robust security standards and frameworks within an organization.
+
+<div class="embed-responsive embed-responsive-16by9 mt-4 mb-4">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-_lf7LPPymU" allowfullscreen></iframe>
+</div>
 
 This project involves an in-depth analysis and presentation of key information security standards and frameworks that are commonly applied within business environments to ensure effective cybersecurity practices and risk management. It provides a structured overview of international and national models that support organizations in developing, maintaining, and continuously improving their security strategies.
 
