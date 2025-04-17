@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://engandreszambrano.github.io/sitemap.xml
+Sitemap: https://engandreszambrano.github.io//sitemap.xml
