@@ -9,7 +9,15 @@ category: academic
 
 This project presents a complete black box vulnerability assessment conducted on a virtual machine, simulating a real-world offensive security audit. The audit was performed using Kali Linux and a range of industry-standard tools, including Metasploit, Nmap, Gobuster, Nessus, and others.
 
-The findings were compiled into a professional audit report using PwnDoc, which ensures a structured format with key sections such as execution timeline, executive summary, vulnerability overview, and detailed technical analysis. The report covers several critical and high-severity vulnerabilities, including:
+The findings were compiled into a professional audit report using PwnDoc:
+
+  <div class="mt-4">
+    <a href="{{ '/assets/pdf/PwDoc_audit_report.pdf' | relative_url }}" class="btn btn-primary" download>
+      📄 Download full audit report PDF
+    </a>
+  </div>
+  
+Which ensures a structured format with key sections such as execution timeline, executive summary, vulnerability overview, and detailed technical analysis. The report covers several critical and high-severity vulnerabilities, including:
 
 CVE-2023-26048 (Jetty DDoS vulnerability)
 
@@ -23,6 +31,12 @@ Weak/default credentials and web-based injection attempts
 
 Each vulnerability is documented with exploitation steps, screenshots, and analysis. The project also includes a step-by-step manual outlining the audit methodology and the use of each tool throughout the process.
 
+  <div class="mt-4">
+    <a href="{{ '/assets/pdf/Step-by-Step_manual.pdf' | relative_url }}" class="btn btn-primary" download>
+      📄 Download full step-by-step manual PDF
+    </a>
+  </div>
+  
 Designed for both educational and professional development purposes, this project demonstrates how to conduct and document a complete security audit following industry standards.
 
 <div class="row">
