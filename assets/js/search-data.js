@@ -69,16 +69,6 @@ ninja.data = [{
           description: "This project is based on the research and presentation of the most relevant information security frameworks and policies applied within a business environment. It highlights essential standards such as NIST, ISO/IEC, and COBIT, offering a structured overview of their roles in managing cyber risks and strengthening organizational security posture.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
