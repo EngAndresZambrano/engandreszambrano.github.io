@@ -14,8 +14,8 @@ The guide covers technical requirements, the installation of Elastic components,
 
 Designed for academic use and hands-on learning, this lab offers a realistic approach to understanding how Elastic SIEM supports centralized log management, threat detection, and incident response. The implementation also explores the benefits and challenges of deploying such a system in a secure, isolated virtual environment.
 
-<div class="embed-responsive embed-responsive-16by9 mt-4 mb-4">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1idh1V2L17U" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9 mt-6 mb-6">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1idh1V2L17U?cc_load_policy=1&cc_lang_pref=en" allowfullscreen></iframe>
 </div>
 
     ---
