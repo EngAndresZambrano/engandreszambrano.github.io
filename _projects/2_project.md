@@ -12,11 +12,11 @@ This project provides a step-by-step guide to deploying a fully functional Secur
 
 The guide covers technical requirements, the installation of Elastic components, and the integration of system and network logs. Special emphasis is placed on the use of Kibana to configure interactive dashboards for visualizing log data, monitoring system behavior, and detecting anomalies in real time.
 
-<div class="mt-4">
-  <a href="{{ '/assets/pdf/Elastic_SIEM_Lab_Manual.pdf' | relative_url }}" class="btn btn-primary" download>
-    <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download full manual here!
-  </a>
-</div>
+  <div class="mt-4">
+    <a href="{{ '/assets/pdf/Elastic_SIEM_Lab_Manual.pdf' | relative_url }}" class="btn btn-primary" download>
+      📄 Download full PDF manual here!
+    </a>
+  </div>
 
 Designed for academic use and hands-on learning, this lab provides a realistic approach to understanding how Elastic SIEM supports centralized log management, threat detection, and incident response. The implementation also explores the benefits and challenges of deploying such a system in a secure, isolated virtual environment, as demonstrated in the video below.
 
