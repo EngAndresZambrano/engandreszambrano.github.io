@@ -14,7 +14,7 @@ The guide covers technical requirements, the installation of Elastic components,
 
 <div class="mt-4">
   <a href="{{ '/assets/pdf/Elastic_SIEM_Lab_Manual.pdf' | relative_url }}" class="btn btn-primary" download>
-    Download full manual here!
+    <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download full manual here!
   </a>
 </div>
 
