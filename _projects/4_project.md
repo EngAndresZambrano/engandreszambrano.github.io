@@ -34,93 +34,234 @@ This project provides a detailed walkthrough of various cryptographic processes 
     FALTA!!!!!!!!!!!!
 </div>
 
-<strong> Key topics covered in this project include:</strong>
+🔐 1. Available Cipher Algorithms
+By executing openssl ciphers -v, you can retrieve the list of available cipher algorithms in OpenSSL.
 
-* Algorithms Available: Using OpenSSL, the available encryption algorithms are reviewed, including the AES cipher, and commands for verifying which algorithms are active.
-
-* Certificate Verification: Using OpenSSL commands, we verify the TLS certificates used by a live website, detailing key information such as:
-
-* Issuer (e.g., DigiCert)
-
-* Encryption algorithms (e.g., SHA256, RSA)
-
-* TLS protocol versions (e.g., TLS 1.3)
-
-* Certificate expiration and public key information.
-
-* AES Encryption and Decryption: The project demonstrates how AES-256-CBC encryption works, explaining the process of:
-
-* Generating encryption keys
-
-* Creating an initialization vector (IV) for enhanced randomness
-
-* Encrypting plaintext data using the CBC mode (Cipher Block Chaining)
-
-* Decrypting the ciphertext back into its original form.
-
-The process of encryption is explained step by step, and the project explores security concerns associated with AES encryption, such as vulnerabilities in the CBC mode and padding oracle attacks. The performance of AES encryption is also evaluated, measuring the time it takes to encrypt and decrypt files.
-
-Linux User Password Hashing: The project touches on how Linux stores user passwords securely using hash functions, providing insights into the location and format of password hashes in the /etc/passwd and /etc/shadow files.
-
-Web Security Vulnerabilities: The project investigates an insecure webpage (HTTP without TLS) and captures unencrypted credentials during a login attempt using Wireshark, showcasing the risks of not using secure protocols.
-
-This project serves as a hands-on guide for understanding encryption techniques, verifying certificates, and identifying common vulnerabilities in cryptographic systems. It emphasizes the importance of secure data transmission and robust password management in maintaining cybersecurity.
-
-<div class="row">
+<div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="/assets/img/listaopenssl.png" title="ISO 22301" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+   List of available ciphers via OpenSSL.
 </div>
-<div class="row">
+
+
+
+🌐 2. Certificate Verification in HTTPS Connections
+Using openssl s_client www.avalpaycenter.com:443, we retrieve the following certificate data from a secure website.
+
+<div class="row mt-4">
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="/assets/img/cipher.png" data-lightbox="standards2" data-title="Cipher">
+      <img src="/assets/img/cipher.png" alt="Cipher" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+<div class="row mt-4">
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="/assets/img/details.png" data-lightbox="standards2" data-title="Details">
+      <img src="/assets/img/details.png" alt="Details" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+<div class="caption">
+   Connection and cipher information for www.avalpaycenter.com
+   Certificate details: TLS, SHA2, DigiCert issuer.
+</div>
+
+Key details:
+
+Uses TLS and SHA2
+
+Certificate issued by DigiCert Inc.
+
+Public key: 2048-bit RSA
+
+Signature: RSA-SHA256
+
+TLS version: 1.3 with AES-128 and SHA256
+
+Owner: A Toda Hora S.A (Grupo Aval)
+
+📁 3. AES Encryption Process
+We create an AES folder in the Kali desktop and proceed with private key generation.
+
+<div class="row mt-4">
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="/assets/img/createaes.png" data-lightbox="standards3" data-title="Create">
+      <img src="/assets/img/createaes.png" alt="Create" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+<div class="row mt-4">
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="/assets/img/initaes.png" data-lightbox="standards3" data-title="Vector">
+      <img src="/assets/img/initaes.png" alt="Vector" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+<div class="caption">
+   Private key creation.
+   Initialization vector (IV) generation.
+</div>
+
+We use CBC (Cipher Block Chaining) for encryption.
+
+<div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="/assets/img/block.png" title="ISO 22301" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+   CBC Mode Process Diagram (from GeeksForGeeks) - Image taken from https://www.geeksforgeeks.org/block-cipher-modes-of-operation/.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+How CBC Works:
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+Blocks are encrypted in sequence
+
+IV is used for randomness
+
+XOR operation with previous cipher block
+
+Vulnerable to padding oracle attacks
+
+No authentication by default
+
+⚡ ChaCha20-Poly1305 Encryption
+ChaCha20: Fast stream cipher, hardware independent, 256-bit key
+
+Poly1305: Message authentication code (MAC), ensures data integrity
+
+Used in HTTPS, VPNs, mobile apps.
+
+🔄 AES-GCM Mode
+AES with Galois/Counter Mode for authenticated encryption.
+
+Benefits:
+
+No padding required
+
+Encrypts and authenticates in one step
+
+Ideal for modern TLS/HTTPS protocols
+
+Secure and fast with AES-NI support
+
+📂 Practical Encryption Example
+Encrypting LABTextoClaro.txt with AES-256-CBC using:
+
+bash
+Copiar
+Editar
+openssl aes-256-cbc -e -nosalt -a -kfile llave_priv.key -iv $(cat vi.key) -in LABTextoClaro.txt -out Cifrado.txt 2> /dev/null
+
+<div class="row text-center">
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="/assets/img/result.png" data-lightbox="standards4" data-title="Result File">
+      <img src="/assets/img/result.png" alt="Result File" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+  <div class="caption">
+   Resulting encrypted file.
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="/assets/img/dif.png" data-lightbox="standards4" data-title="File Dif">
+      <img src="/assets/img/dif.png" alt="File Dif" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+  <div class="caption">
+   File size difference between original and encrypted.
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="/assets/img/base64.png" data-lightbox="standards4" data-title="Base 64 Content">
+      <img src="/assets/img/base64.png" alt="Base 64 Content" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+  <div class="caption">
+   Encrypted Base64 content.
+  </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
+❌ Removing Plaintext and Decrypting File
+The original file is deleted and the encrypted one is decrypted:
 
 ```html
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% openssl aes-256-cbc -d -nosalt -a -kfile llave_priv.key -iv $(cat vi.key) -in Cifrado.txt -out descifrado.txt 2> /dev/null %}
   </div>
 </div>
 ```
 
-{% endraw %}
+<div class="row mt-4">
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="/assets/img/remove.png" data-lightbox="standards5" data-title="Delete">
+      <img src="/assets/img/remove.png" alt="Delete" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+<div class="caption">
+  Deleted plaintext file.
+</div>
+<div class="row mt-4">
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="/assets/img/decrypt.png" data-lightbox="standards5" data-title="Decrypt">
+      <img src="/assets/img/decrypt.png" alt="Decrypt" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+<div class="caption">
+   Decryption process.
+</div>
+
+<div class="row mt-4">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="/assets/img/final.png" title="Recover-Restore" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   Recovered original content - Restored original file size.
+</div>
+
+⏱️ Encryption Performance Benchmark
+Using time to measure processing speed:
+
+bash
+Copiar
+Editar
+time openssl enc -aes-256-cbc -in Cifrado.txt -out cifradotiempo.txt -pass file:./llave_priv.key
+📷 Image 15 – Time measurement results
+
+Expected times:
+
+1MB AES-256: ~1–5 ms
+
+1GB AES-256: ~1–4 sec
+
+🔑 How Linux Stores Passwords
+Linux stores:
+
+Users in /etc/passwd
+
+Hashed passwords in /etc/shadow using secure hash functions
+
+📷 Image 16 – Hash entries in the shadow file
+
+⚠️ Insecure Login Example (No TLS)
+The website http://divtic.net/diplomados/login/index.php lacks TLS encryption.
+
+📷 Image 17 – Insecure connection warning
+
+After sending fake credentials (Pepe), Wireshark is used to intercept HTTP POST data.
+
+📷 Image 18 – Login attempt with test credentials
+📷 Image 19 – Wireshark capture showing credentials in clear text
+
+📚 References
+GeeksForGeeks – Block Cipher Modes
+
+Wikipedia – ChaCha20-Poly1305
+
+RedesZone – AES-GCM
