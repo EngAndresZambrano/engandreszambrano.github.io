@@ -228,12 +228,11 @@ The original file is deleted and the encrypted one is decrypted:
 ⏱️ Encryption Performance Benchmark
 Using time to measure processing speed:
 
-```html
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% time openssl enc -aes-256-cbc -in Cifrado.txt -out cifradotiempo.txt -pass file:./llave_priv.key %}
+  <div class="col-sm-10 mt-3 mt-md-0">
+    <pre class="bg-dark text-white p-3 rounded"><code class="language-bash">time openssl enc -aes-256-cbc -in Cifrado.txt -out cifradotiempo.txt -pass file:./llave_priv.key
   </div>
-</div
+</div>
 
 📷 Image 15 – Time measurement results
 
