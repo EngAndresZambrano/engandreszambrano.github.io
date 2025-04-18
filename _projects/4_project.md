@@ -51,23 +51,24 @@ By executing openssl ciphers -v, you can retrieve the list of available cipher a
 🌐 2. Certificate Verification in HTTPS Connections
 Using openssl s_client www.avalpaycenter.com:443, we retrieve the following certificate data from a secure website.
 
-<div class="row mt-4">
-  <div class="col-sm mt-3 mt-md-0">
+<div class="row mt-4 text-center">
+  <div class="col-sm-8 mx-auto mt-3 mt-md-0">
     <a href="/assets/img/cipher.png" data-lightbox="standards2" data-title="Cipher">
       <img src="/assets/img/cipher.png" alt="Cipher" class="img-fluid rounded z-depth-1" />
     </a>
   </div>
 </div>
-<div class="row mt-4">
-  <div class="col-sm mt-3 mt-md-0">
+
+<div class="row mt-4 text-center">
+  <div class="col-sm-8 mx-auto mt-3 mt-md-0">
     <a href="/assets/img/details.png" data-lightbox="standards2" data-title="Details">
       <img src="/assets/img/details.png" alt="Details" class="img-fluid rounded z-depth-1" />
     </a>
   </div>
 </div>
+
 <div class="caption">
-   Connection and cipher information for www.avalpaycenter.com
-   Certificate details: TLS, SHA2, DigiCert issuer.
+   Connection and cipher information for www.avalpaycenter.com - Certificate details: TLS, SHA2, DigiCert issuer.
 </div>
 
 Key details:
@@ -87,15 +88,16 @@ Owner: A Toda Hora S.A (Grupo Aval)
 📁 3. AES Encryption Process
 We create an AES folder in the Kali desktop and proceed with private key generation.
 
-<div class="row mt-4">
-  <div class="col-sm mt-3 mt-md-0">
+<div class="row mt-4 text-center">
+  <div class="col-sm-8 mx-auto mt-3 mt-md-0">
     <a href="/assets/img/createaes.png" data-lightbox="standards3" data-title="Create">
       <img src="/assets/img/createaes.png" alt="Create" class="img-fluid rounded z-depth-1" />
     </a>
   </div>
 </div>
-<div class="row mt-4">
-  <div class="col-sm mt-3 mt-md-0">
+
+<div class="row mt-4 text-center">
+  <div class="col-sm-8 mx-auto mt-3 mt-md-0">
     <a href="/assets/img/initaes.png" data-lightbox="standards3" data-title="Vector">
       <img src="/assets/img/initaes.png" alt="Vector" class="img-fluid rounded z-depth-1" />
     </a>
