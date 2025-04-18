@@ -309,8 +309,11 @@ After sending fake credentials (Pepe), Wireshark is used to intercept HTTP POST 
 
 📚 References
 <ul>
-  <li><a href="https://www.geeksforgeeks.org/block-cipher-modes-of-operation/" target="_blank">GeeksForGeeks – Block Cipher Modes</a></li>
+  <li><a href="https://www.researchgate.net/figure/Cipher-block-chaining-CBC-mode-encryption_fig1_215783767" target="_blank">ResearchGate – Cipher block chaining (CBC) mode encryption</a></li>
+  <li><a href="https://www.geeksforgeeks.org/block-cipher-modes-of-operation/" target="_blank">GeeksForGeeks – Block Cipher Modes of Operation</a></li>
+  <li><a href="https://es.wikipedia.org/wiki/Cifrado_por_bloques#:~:text=La%20desventaja%20de%20este%20m%C3%A9todo,sea%20recomendable%20para%20protocolos%20cifrados." target="_blank">Wikipedia – Cifrado por bloques</a></li>
   <li><a href="https://en.wikipedia.org/wiki/ChaCha20-Poly1305" target="_blank">Wikipedia – ChaCha20-Poly1305</a></li>
-  <li><a href="https://www.redeszone.net/tutoriales/redes/aes-gcm/" target="_blank">RedesZone – AES-GCM</a></li>
+  <li><a href="https://www.redeszone.net/2019/05/04/aes-gcm-siv-cifrado-simetrico-aead/" target="_blank">RedesZone – AES-GCM-SIV cifrado simétrico AEAD</a></li>
 </ul>
+
 
