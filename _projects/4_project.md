@@ -162,27 +162,28 @@ openssl aes-256-cbc -e -nosalt -a -kfile llave_priv.key -iv $(cat vi.key) -in LA
     <a href="/assets/img/result.png" data-lightbox="standards4" data-title="Result File">
       <img src="/assets/img/result.png" alt="Result File" class="img-fluid rounded z-depth-1" />
     </a>
-  </div>
-  <div class="caption">
-   Resulting encrypted file.
+    <div class="caption mt-2">
+      Resulting encrypted file.
+    </div>
   </div>
   <div class="col-sm mt-3 mt-md-0">
     <a href="/assets/img/dif.png" data-lightbox="standards4" data-title="File Dif">
       <img src="/assets/img/dif.png" alt="File Dif" class="img-fluid rounded z-depth-1" />
     </a>
-  </div>
-  <div class="caption">
-   File size difference between original and encrypted.
+    <div class="caption mt-2">
+      File size difference between original and encrypted.
+    </div>
   </div>
   <div class="col-sm mt-3 mt-md-0">
     <a href="/assets/img/base64.png" data-lightbox="standards4" data-title="Base 64 Content">
       <img src="/assets/img/base64.png" alt="Base 64 Content" class="img-fluid rounded z-depth-1" />
     </a>
-  </div>
-  <div class="caption">
-   Encrypted Base64 content.
+    <div class="caption mt-2">
+      Encrypted Base64 content.
+    </div>
   </div>
 </div>
+
 
 ❌ Removing Plaintext and Decrypting File
 The original file is deleted and the encrypted one is decrypted:
@@ -195,43 +196,47 @@ The original file is deleted and the encrypted one is decrypted:
 </div>
 ```
 
-<div class="row mt-4">
+<div class="row mt-4 text-center">
   <div class="col-sm mt-3 mt-md-0">
     <a href="/assets/img/remove.png" data-lightbox="standards5" data-title="Delete">
       <img src="/assets/img/remove.png" alt="Delete" class="img-fluid rounded z-depth-1" />
     </a>
+    <div class="caption mt-2">
+      Deleted plaintext file.
+    </div>
   </div>
 </div>
-<div class="caption">
-  Deleted plaintext file.
-</div>
-<div class="row mt-4">
+
+<div class="row mt-4 text-center">
   <div class="col-sm mt-3 mt-md-0">
     <a href="/assets/img/decrypt.png" data-lightbox="standards5" data-title="Decrypt">
       <img src="/assets/img/decrypt.png" alt="Decrypt" class="img-fluid rounded z-depth-1" />
     </a>
+    <div class="caption mt-2">
+      Decryption process.
+    </div>
   </div>
 </div>
-<div class="caption">
-   Decryption process.
-</div>
 
-<div class="row mt-4">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/final.png" title="Recover-Restore" class="img-fluid rounded z-depth-1" %}
+<div class="row mt-4 text-center">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="/assets/img/final.png" title="Recover-Restore" class="img-fluid rounded z-depth-1" %}
+    <div class="caption mt-2">
+      Recovered original content - Restored original file size.
     </div>
-</div>
-<div class="caption">
-   Recovered original content - Restored original file size.
+  </div>
 </div>
 
 ⏱️ Encryption Performance Benchmark
 Using time to measure processing speed:
 
-bash
-Copiar
-Editar
-time openssl enc -aes-256-cbc -in Cifrado.txt -out cifradotiempo.txt -pass file:./llave_priv.key
+```html
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% time openssl enc -aes-256-cbc -in Cifrado.txt -out cifradotiempo.txt -pass file:./llave_priv.key %}
+  </div>
+</div
+
 📷 Image 15 – Time measurement results
 
 Expected times:
