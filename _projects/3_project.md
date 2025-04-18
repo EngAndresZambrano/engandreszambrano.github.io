@@ -5,6 +5,8 @@ description: A professional black box audit conducted on a virtual machine using
 img: assets/img/img_title3.jpg
 importance: 3
 category: academic
+images:
+  lightbox2: true
 ---
 
 This project presents a complete black box vulnerability assessment conducted on a virtual machine, simulating a real-world offensive security audit. The audit was performed using Kali Linux and a range of industry-standard tools, including Metasploit, Nmap, Gobuster, Nessus, and others.
@@ -17,17 +19,46 @@ The findings were compiled into a professional audit report using PwnDoc:
     </a>
   </div>
   
-Which ensures a structured format with key sections such as execution timeline, executive summary, vulnerability overview, and detailed technical analysis. The report covers several critical and high-severity vulnerabilities, including:
+Which ensures a structured format with key sections such as execution timeline, executive summary, vulnerability overview, and detailed technical analysis. 
 
-CVE-2023-26048 (Jetty DDoS vulnerability)
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/portada.png" title="Black Box Services" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Services found in the Black Box
+</div>
 
-CVE-2024-23897 (Arbitrary file read in Jenkins)
+The report covers several critical and high-severity vulnerabilities, including:
 
-CVE-2024-40725 (Source code disclosure)
+ <strong>CVE-2023-26048 (Jetty DDoS vulnerability)</strong>
 
-Privilege escalation via GNU Screen 4.5.0
+ <strong>CVE-2024-23897 (Arbitrary file read in Jenkins)</strong>
 
-Weak/default credentials and web-based injection attempts
+ <strong>CVE-2024-40725 (Source code disclosure)</strong>
+
+ <strong>Privilege escalation via GNU Screen 4.5.0</strong>
+
+ <strong>Weak/default credentials and web-based injection attempts</strong>
+
+ <div class="row text-center">
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="/assets/img/owasp.png" data-lightbox="standards1" data-title="NIST CSF">
+      <img src="/assets/img/owasp.png" alt="OWASP" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="/assets/img/nessus.png" data-lightbox="standards1" data-title="COBIT">
+      <img src="/assets/img/nessus.png" alt="Nessus" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="/assets/img/nikto.png" data-lightbox="standards1" data-title="CIS CSC">
+      <img src="/assets/img/nikto.png" alt="Nikto" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
 
 Each vulnerability is documented with exploitation steps, screenshots, and analysis. The project also includes a step-by-step manual outlining the audit methodology and the use of each tool throughout the process.
 
@@ -52,14 +83,6 @@ Designed for both educational and professional development purposes, this projec
 </div>
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
 You can also put regular text between your rows of images.
