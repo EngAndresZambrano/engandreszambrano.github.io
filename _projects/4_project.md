@@ -20,12 +20,12 @@ This project provides a detailed walkthrough of various cryptographic processes 
   </div>
   <div class="col-sm mt-3 mt-md-0">
     <a href="/assets/img/tls.png" data-lightbox="standards" data-title="TLS">
-      <img src="/assets/img/.png" alt="TLS" class="img-fluid rounded z-depth-1" />
+      <img src="/assets/img/tls.png" alt="TLS" class="img-fluid rounded z-depth-1" />
     </a>
   </div>
   <div class="col-sm mt-3 mt-md-0">
     <a href="/assets/img/digi.png" data-lightbox="standards" data-title="Digicert">
-      <img src="/assets/img/.png" alt="Digicert" class="img-fluid rounded z-depth-1" />
+      <img src="/assets/img/digi.png" alt="Digicert" class="img-fluid rounded z-depth-1" />
     </a>
   </div>
 </div>
