@@ -5,33 +5,58 @@ description: This project explores the use of cryptographic algorithms, focusing
 img: assets/img/img_title4.png
 importance: 4
 category: academic
+images:
+  lightbox2: true
 ---
+
 
 This project provides a detailed walkthrough of various cryptographic processes and security assessments in a real-world context. The focus is on AES encryption, TLS certificate verification, and web vulnerabilities.
 
-Key topics covered in this project include:
+<div class="row text-center">
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="/assets/img/open.png" data-lightbox="standards" data-title="OPENSSL">
+      <img src="/assets/img/open.png" alt="OPENSSL" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="/assets/img/tls.png" data-lightbox="standards" data-title="TLS">
+      <img src="/assets/img/.png" alt="TLS" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="/assets/img/digi.png" data-lightbox="standards" data-title="Digicert">
+      <img src="/assets/img/.png" alt="Digicert" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
 
-Algorithms Available: Using OpenSSL, the available encryption algorithms are reviewed, including the AES cipher, and commands for verifying which algorithms are active.
+<div class="caption">
+    FALTA!!!!!!!!!!!!
+</div>
 
-Certificate Verification: Using OpenSSL commands, we verify the TLS certificates used by a live website, detailing key information such as:
+<strong> Key topics covered in this project include:</strong>
 
-Issuer (e.g., DigiCert)
+* Algorithms Available: Using OpenSSL, the available encryption algorithms are reviewed, including the AES cipher, and commands for verifying which algorithms are active.
 
-Encryption algorithms (e.g., SHA256, RSA)
+* Certificate Verification: Using OpenSSL commands, we verify the TLS certificates used by a live website, detailing key information such as:
 
-TLS protocol versions (e.g., TLS 1.3)
+* Issuer (e.g., DigiCert)
 
-Certificate expiration and public key information.
+* Encryption algorithms (e.g., SHA256, RSA)
 
-AES Encryption and Decryption: The project demonstrates how AES-256-CBC encryption works, explaining the process of:
+* TLS protocol versions (e.g., TLS 1.3)
 
-Generating encryption keys
+* Certificate expiration and public key information.
 
-Creating an initialization vector (IV) for enhanced randomness
+* AES Encryption and Decryption: The project demonstrates how AES-256-CBC encryption works, explaining the process of:
 
-Encrypting plaintext data using the CBC mode (Cipher Block Chaining)
+* Generating encryption keys
 
-Decrypting the ciphertext back into its original form.
+* Creating an initialization vector (IV) for enhanced randomness
+
+* Encrypting plaintext data using the CBC mode (Cipher Block Chaining)
+
+* Decrypting the ciphertext back into its original form.
 
 The process of encryption is explained step by step, and the project explores security concerns associated with AES encryption, such as vulnerabilities in the CBC mode and padding oracle attacks. The performance of AES encryption is also evaluated, measuring the time it takes to encrypt and decrypt files.
 
