@@ -154,9 +154,12 @@ Encrypting LABTextoClaro.txt with AES-256-CBC using:
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
-    <pre class="bg-dark text-white p-3 rounded"><code class="language-bash">openssl aes-256-cbc -e -nosalt -a -kfile llave_priv.key -iv $(cat vi.key) -in LABTextoClaro.txt -out Cifrado.txt 2> /dev/null
+    <pre class="bg-dark text-white p-3 rounded">
+<code class="language-bash">openssl aes-256-cbc -e -nosalt -a -kfile llave_priv.key -iv $(cat vi.key) -in LABTextoClaro.txt -out Cifrado.txt 2&gt; /dev/null</code>
+</pre>
   </div>
 </div>
+
 
 <div class="row text-center">
   <div class="col-sm mt-3 mt-md-0">
@@ -190,7 +193,9 @@ The original file is deleted and the encrypted one is decrypted:
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
-    <pre class="bg-dark text-white p-3 rounded"><code class="language-bash">openssl aes-256-cbc -d -nosalt -a -kfile llave_priv.key -iv $(cat vi.key) -in Cifrado.txt -out descifrado.txt 2> /dev/null
+    <pre class="bg-dark text-white p-3 rounded">
+<code class="language-bash">language-bash">openssl aes-256-cbc -d -nosalt -a -kfile llave_priv.key -iv $(cat vi.key) -in Cifrado.txt -out descifrado.txt 2&gt; /dev/null</code>
+</pre>
   </div>
 </div>
 
@@ -230,7 +235,9 @@ Using time to measure processing speed:
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
-    <pre class="bg-dark text-white p-3 rounded"><code class="language-bash">time openssl enc -aes-256-cbc -in Cifrado.txt -out cifradotiempo.txt -pass file:./llave_priv.key
+    <pre class="bg-dark text-white p-3 rounded">
+<code class="language-bash">language-bash">time openssl enc -aes-256-cbc -in Cifrado.txt -out cifradotiempo.txt -pass file:./llave_priv.key 2&gt; /dev/null</code>
+</pre>
   </div>
 </div>
 
