@@ -243,7 +243,14 @@ Using time to measure processing speed:
   </div>
 </div>
 
-📷 Image 15 – Time measurement results
+<div class="row mt-4">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="/assets/img/time.png" title="TIme results" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   Time measurement results.
+</div>
 
 Expected times:
 
@@ -258,21 +265,52 @@ Users in /etc/passwd
 
 Hashed passwords in /etc/shadow using secure hash functions
 
-📷 Image 16 – Hash entries in the shadow file
+<div class="row mt-4">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="/assets/img/shadow.png" title="Shadow File" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   Hash entries in the shadow file.
+</div>
 
 ⚠️ Insecure Login Example (No TLS)
 The website http://divtic.net/diplomados/login/index.php lacks TLS encryption.
 
-📷 Image 17 – Insecure connection warning
+<div class="row mt-4">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="/assets/img/page.png" title="Insecure Web" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   Insecure connection warning.
+</div>
 
 After sending fake credentials (Pepe), Wireshark is used to intercept HTTP POST data.
 
-📷 Image 18 – Login attempt with test credentials
-📷 Image 19 – Wireshark capture showing credentials in clear text
+<div class="row mt-4 text-center">
+  <div class="col-sm-8 mx-auto mt-3 mt-md-0">
+    <a href="/assets/img/login.png" data-lightbox="standards6" data-title="Login attempt">
+      <img src="/assets/img/login.png" alt="Login attempt" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+
+<div class="row mt-4 text-center">
+  <div class="col-sm-8 mx-auto mt-3 mt-md-0">
+    <a href="/assets/img/wire.png" data-lightbox="standards6" data-title="Wireshark">
+      <img src="/assets/img/wire.png" alt="Wireshark" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+<div class="caption">
+   Login attempt with test credentials - Wireshark capture showing credentials in clear text.
+</div>
 
 📚 References
-GeeksForGeeks – Block Cipher Modes
+<ul>
+  <li><a href="https://www.geeksforgeeks.org/block-cipher-modes-of-operation/" target="_blank">GeeksForGeeks – Block Cipher Modes</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/ChaCha20-Poly1305" target="_blank">Wikipedia – ChaCha20-Poly1305</a></li>
+  <li><a href="https://www.redeszone.net/tutoriales/redes/aes-gcm/" target="_blank">RedesZone – AES-GCM</a></li>
+</ul>
 
-Wikipedia – ChaCha20-Poly1305
-
-RedesZone – AES-GCM
