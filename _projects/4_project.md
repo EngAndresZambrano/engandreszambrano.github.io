@@ -152,10 +152,11 @@ Secure and fast with AES-NI support
 📂 Practical Encryption Example
 Encrypting LABTextoClaro.txt with AES-256-CBC using:
 
-bash
-Copiar
-Editar
-openssl aes-256-cbc -e -nosalt -a -kfile llave_priv.key -iv $(cat vi.key) -in LABTextoClaro.txt -out Cifrado.txt 2> /dev/null
+<div class="row justify-content-sm-center">
+  <div class="col-sm-10 mt-3 mt-md-0">
+    <pre class="bg-dark text-white p-3 rounded"><code class="language-bash">openssl aes-256-cbc -e -nosalt -a -kfile llave_priv.key -iv $(cat vi.key) -in LABTextoClaro.txt -out Cifrado.txt 2> /dev/null
+  </div>
+</div>
 
 <div class="row text-center">
   <div class="col-sm mt-3 mt-md-0">
@@ -184,17 +185,14 @@ openssl aes-256-cbc -e -nosalt -a -kfile llave_priv.key -iv $(cat vi.key) -in LA
   </div>
 </div>
 
-
 ❌ Removing Plaintext and Decrypting File
 The original file is deleted and the encrypted one is decrypted:
 
-```html
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% openssl aes-256-cbc -d -nosalt -a -kfile llave_priv.key -iv $(cat vi.key) -in Cifrado.txt -out descifrado.txt 2> /dev/null %}
+  <div class="col-sm-10 mt-3 mt-md-0">
+    <pre class="bg-dark text-white p-3 rounded"><code class="language-bash">openssl aes-256-cbc -d -nosalt -a -kfile llave_priv.key -iv $(cat vi.key) -in Cifrado.txt -out descifrado.txt 2> /dev/null
   </div>
 </div>
-```
 
 <div class="row mt-4 text-center">
   <div class="col-sm mt-3 mt-md-0">
