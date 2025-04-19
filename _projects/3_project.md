@@ -26,9 +26,10 @@ Which ensures a structured format with key sections such as execution timeline, 
       <a href="/assets/img/portada.png" data-lightbox="grupo1" data-title="Black Box Services">
       <img src="/assets/img/portada.png" alt="Black Box Services" class="img-fluid rounded z-depth-1" style="max-width: 60%; height: auto;" />
    </a>
-</div>
-<div class="caption">
-    Services identified on the black box after conducting the ethical hacking activity.
+    <div class="caption mt-2">
+      Services identified on the black box after conducting the ethical hacking activity.
+    </div>
+  </div>
 </div>
 
 The report covers several critical and high-severity vulnerabilities, including:
