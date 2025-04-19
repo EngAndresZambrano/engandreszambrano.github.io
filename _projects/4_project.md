@@ -34,13 +34,14 @@ This project provides a detailed walkthrough of various cryptographic processes 
 By executing openssl ciphers -v, you can retrieve the list of available cipher algorithms in OpenSSL.
 
 <div class="row mt-4">
-   <div class="col-sm mt-3 mt-md-0 text-center">
-      <a href="/assets/img/listaopenssl.png" data-lightbox="grupo1" data-title="Open SSL List">
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    <a href="/assets/img/listaopenssl.png" data-lightbox="grupo1" data-title="Open SSL List">
       <img src="/assets/img/listaopenssl.png" alt="Open SSL List" class="img-fluid rounded z-depth-1" style="max-width: 60%; height: auto;" />
-   </a>
-</div>
-<div class="caption">
-   List of available ciphers via OpenSSL.
+    </a>
+    <div class="caption mt-2">
+      List of available ciphers via OpenSSL.
+    </div>
+  </div>
 </div>
 
 🌐 2. Certificate Verification in HTTPS Connections
