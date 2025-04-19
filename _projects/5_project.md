@@ -42,7 +42,7 @@ In addition to demonstrating the attack, the project also explores mitigation st
 </table>
 
 
-✅ Successful connectivity test was performed between attacker and victim.
+<h3>✅ Successful connectivity test was performed between attacker and victim.</h3>
 
 <div class="row text-center">
   <div class="col-sm mt-3 mt-md-0">
@@ -62,7 +62,7 @@ In addition to demonstrating the attack, the project also explores mitigation st
   </div>
 </div>
 
-🧼 ARP Table Flush & Packet Observation
+<h3>🧼 ARP Table Flush & Packet Observation</h3>
 
 <div class="row mt-4 justify-content-center">
   <div class="col-sm-10 text-center">
@@ -93,7 +93,7 @@ Performed a ping from Ubuntu to Windows. The ARP request from Windows was captur
   </div>
 </div>
 
-🔧 Tool Installation
+<h3>🔧 Tool Installation</h3>
 
 <div class="row mt-4 justify-content-center">
   <div class="col-sm-10 text-center">
@@ -106,7 +106,7 @@ Performed a ping from Ubuntu to Windows. The ARP request from Windows was captur
   </div>
 </div>
 
-🕸️ Performing the MitM Attack
+<h3>🕸️ Performing the MitM Attack</h3>
 a. Simulated Traffic:
 
 <div class="row mt-4 justify-content-center">
@@ -133,7 +133,7 @@ b. ARP Spoofing:
   </div>
 </div>
 
-🛑 The victim lost internet connectivity as a result.
+<h3>🛑 The victim lost internet connectivity as a result.</h3>
 
 <div class="row mt-4 text-center">
   <div class="col-sm-8 mx-auto mt-3 mt-md-0">
@@ -216,8 +216,8 @@ e. Attack Termination:
   </div>
 </div>
 
-🛡️ Mitigation & Protection Techniques
-🖥️ On Windows:
+<h3>🛡️ Mitigation & Protection Techniques</h3>
+<h3>🖥️ On Windows:</h3>
 Verified MAC and IP of the gateway.
 
 <div class="row mt-4 text-center">
@@ -231,7 +231,7 @@ Verified MAC and IP of the gateway.
   </div>
 </div>
 
-🐧 On Ubuntu:
+<h3>🐧 On Ubuntu:</h3>
 
 <div class="row mt-4 text-center">
   <div class="col-sm-8 mx-auto mt-3 mt-md-0">
@@ -244,7 +244,7 @@ Verified MAC and IP of the gateway.
   </div>
 </div>
 
-🔄 Attack Reversal & Monitoring
+<h3>🔄 Attack Reversal & Monitoring</h3>
 
 <div class="row mt-4 text-center">
   <div class="col-sm-8 mx-auto mt-3 mt-md-0">
@@ -267,7 +267,7 @@ Verified MAC and IP of the gateway.
   </div>
 </div>
 
-🧰 Detection Tools
+<h3>🧰 Detection Tools</h3>
 Tools for ARP Spoofing detection:
 
 NetCut Defender
@@ -276,7 +276,7 @@ WiFiman
 
 ARP Guard (WiFi Security)
 
-📝 Mobile Recommendations:
+<h3>📝 Mobile Recommendations:</h3>
 
 Use a VPN
 
@@ -286,7 +286,7 @@ Install security apps
 
 Avoid public Wi-Fi
 
-🧯 What are Anti-Sniffer & Anti-Spoofing Systems?
+<h3>🧯 What are Anti-Sniffer & Anti-Spoofing Systems?</h3>
 Anti-Sniffer:
 Detects sniffing tools that capture network traffic (e.g., passwords, emails).
 
@@ -299,7 +299,7 @@ Email authentication
 
 Behavior anomaly detection
 
-🛡️ Common Techniques:
+<h3>🛡️ Common Techniques:</h3>
 
 Data encryption
 
@@ -309,7 +309,7 @@ Intrusion Detection Systems (IDS)
 
 User authentication
 
-🏗️ Network-Level Defenses
+<h3>🏗️ Network-Level Defenses</h3>
 DHCP Snooping: Validates DHCP traffic to prevent spoofing and DoS.
 
 Port Security: Limits the number of MAC addresses per port.
@@ -320,7 +320,7 @@ MACsec: Provides Layer 2 encryption, integrity, and authentication.
 
 Layer 2 Hardware ACLs: Filters Ethernet traffic by MAC, VLAN, and protocol type.
 
-🔒 Recommendations:
+<h3>🔒 Recommendations:</h3>
 
 Use strong passwords
 
@@ -330,7 +330,7 @@ Monitor switch logs
 
 Limit configuration access
 
-📌 Conclusions
+<h3>📌 Conclusions</h3>
 The weakest link in cybersecurity is often the human element.
 
 MitM attacks are simple yet highly impactful, especially over unencrypted protocols like HTTP.
