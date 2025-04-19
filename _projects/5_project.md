@@ -7,19 +7,40 @@ importance: 5
 category: academic
 ---
 
-🕵️‍♂️ Man-in-the-Middle Attack (MitM)
+<h3>🕵️‍♂️ Man-in-the-Middle Attack (MitM)</h3>
 The project aims to simulate and analyze a Man-in-the-Middle (MitM) attack on a network to demonstrate its impact and potential security threats. The simulation involves the use of ARP spoofing to manipulate the Address Resolution Protocol (ARP) tables and redirect traffic from the victim machine to the attacker's machine. The attack begins with network configurations, followed by the installation of tools such as "dsniff" and "arpspoof" for traffic interception. Once the attack is initiated, network traffic is captured, including sensitive data like login credentials, using tools like Wireshark.
 
 In addition to demonstrating the attack, the project also explores mitigation strategies, such as configuring static ARP entries and implementing network monitoring tools to detect and prevent ARP spoofing. These defense measures are tested on both Windows and Linux machines. The project provides valuable insights into how these attacks work, their potential consequences, and effective countermeasures to protect networked systems from such vulnerabilities.
 
-🧪 Lab Setup and Initial Configuration
-Based on the network topology ([Insert Figure 1 here]), we gathered the following device information:
+<h3>🧪 Lab Setup and Initial Configuration</h3>
 
+<table style="margin: auto; border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr>
+      <th>Device</th>
+      <th>IP Address</th>
+      <th>MAC Address</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🌐 Gateway</td>
+      <td>192.168.1.1</td>
+      <td>80:78:71:ec:2d:10</td>
+    </tr>
+    <tr>
+      <td>🖥️ Victim (Windows)</td>
+      <td>192.168.1.8</td>
+      <td>dc:f5:05:51:5a:5f</td>
+    </tr>
+    <tr>
+      <td>🐧 Attacker (Ubuntu)</td>
+      <td>192.168.1.9</td>
+      <td>08:00:27:a2:52:b0</td>
+    </tr>
+  </tbody>
+</table>
 
-        Device          IP Address	     MAC Address
-🌐 Gateway             192.168.1.1	  80:78:71:ec:2d:10
-🖥️ Victim (Windows)    192.168.1.8	  dc:f5:05:51:5a:5f
-🐧 Attacker (Ubuntu)   192.168.1.9	  08:00:27:a2:52:b0
 
 ✅ Successful connectivity test was performed between attacker and victim.
 
