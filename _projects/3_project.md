@@ -76,7 +76,7 @@ Designed for both educational and professional development purposes, this projec
 
 <div class="row text-center">
   <div class="col-sm mt-3 mt-md-0">
-    <a href="/assets/img/matasploit.png" data-lightbox="standards2" data-title="Metasploit">
+    <a href="/assets/img/metasploit.png" data-lightbox="standards2" data-title="Metasploit">
       <img src="/assets/img/metasploit.png" alt="Metasploit" class="img-fluid rounded z-depth-1" />
     </a>
   </div>
