@@ -158,40 +158,114 @@ b. ARP Spoofing:
 </div>
 
 c. IP Forwarding:
-Enabled IP forwarding on the attacker’s machine to restore victim’s connectivity.
-[Insert Figure 12 here]
+
+<div class="row mt-4 text-center">
+  <div class="col-sm-8 mx-auto mt-3 mt-md-0">
+    <a href="/assets/img/forw.png" data-lightbox="standards4" data-title="IP Forwarding">
+      <img src="/assets/img/forw.png" alt="IP Forwarding" class="img-fluid rounded z-depth-1" />
+    </a>
+    <p class="caption mt-2 text-center">
+      Enabled IP forwarding on the attacker’s machine to restore victim’s connectivity.
+    </p>
+  </div>
+</div>
 
 d. Traffic Interception:
-The attacker poisoned both victim and gateway ARP tables.
-[Insert Figure 13 here]
 
-Visited a non-HTTPS URL from the victim machine and entered login credentials.
-[Insert Figure 14 here]
-
-Captured plaintext credentials via Wireshark (filtered by POST packets).
-[Insert Figure 15 here]
+<div class="row mt-4 text-center">
+  <div class="col-sm-8 mx-auto mt-3 mt-md-0">
+    <a href="/assets/img/poison.png" data-lightbox="standards4" data-title="Poisoning">
+      <img src="/assets/img/poison.png" alt="Poisoning" class="img-fluid rounded z-depth-1" />
+    </a>
+    <p class="caption mt-2 text-center">
+      The attacker poisoned both victim and gateway ARP tables.
+    </p>
+  </div>
+</div>
+<div class="row mt-4 text-center">
+  <div class="col-sm-8 mx-auto mt-3 mt-md-0">
+    <a href="/assets/img/page1.png" data-lightbox="standards4" data-title="non-HTTPS URL">
+      <img src="/assets/img/page1.png" alt="non-HTTPS URL" class="img-fluid rounded z-depth-1" />
+    </a>
+    <p class="caption mt-2 text-center">
+      Visited a non-HTTPS URL from the victim machine and entered login credentials.
+    </p>
+  </div>
+</div>
+<div class="row mt-4 text-center">
+  <div class="col-sm-8 mx-auto mt-3 mt-md-0">
+    <a href="/assets/img/wirehttp.png" data-lightbox="standards4" data-title="Captured plaintext">
+      <img src="/assets/img/wirehttp.png" alt="Captured plaintext" class="img-fluid rounded z-depth-1" />
+    </a>
+    <p class="caption mt-2 text-center">
+      Captured plaintext credentials via Wireshark (filtered by POST packets).
+    </p>
+  </div>
+</div>
 
 e. Attack Termination:
-ARP poisoning was stopped to end the attack session.
-[Insert Figure 16 here]
+
+<div class="row mt-4 text-center">
+  <div class="col-sm-8 mx-auto mt-3 mt-md-0">
+    <a href="/assets/img/stopoison.png" data-lightbox="standards5" data-title="Attack Stopped">
+      <img src="/assets/img/stopoison.png" alt="Attack Stopped" class="img-fluid rounded z-depth-1" />
+    </a>
+    <p class="caption mt-2 text-center">
+      ARP poisoning was stopped to end the attack session.
+    </p>
+  </div>
+</div>
 
 🛡️ Mitigation & Protection Techniques
 🖥️ On Windows:
 Verified MAC and IP of the gateway.
 
-Configured a static ARP entry using netsh.
-[Insert Figures 17 to 19 here]
+<div class="row mt-4 text-center">
+  <div class="col-sm-8 mx-auto mt-3 mt-md-0">
+    <a href="/assets/img/protect1.png" data-lightbox="standards6" data-title="Static ARP">
+      <img src="/assets/img/protect1.png" alt="Static ARP" class="img-fluid rounded z-depth-1" />
+    </a>
+    <p class="caption mt-2 text-center">
+      Configured a static ARP entry using netsh.
+    </p>
+  </div>
+</div>
 
 🐧 On Ubuntu:
-Similar static ARP configuration steps applied.
-[Insert Figure 20 here]
+
+<div class="row mt-4 text-center">
+  <div class="col-sm-8 mx-auto mt-3 mt-md-0">
+    <a href="/assets/img/neigh.png" data-lightbox="standards7" data-title="Neighbors">
+      <img src="/assets/img/neigh.png" alt="Neighbors" class="img-fluid rounded z-depth-1" />
+    </a>
+    <p class="caption mt-2 text-center">
+      Similar static ARP configuration steps applied Neighbors.
+    </p>
+  </div>
+</div>
 
 🔄 Attack Reversal & Monitoring
-Reverted to dynamic ARP configuration for testing purposes.
-[Insert Figures 21 and 22 here]
 
-Repeated ARP spoofing showed the attacker successfully impersonated the gateway.
-[Insert Figure 23 here]
+<div class="row mt-4 text-center">
+  <div class="col-sm-8 mx-auto mt-3 mt-md-0">
+    <a href="/assets/img/int.png" data-lightbox="standards8" data-title="Static">
+      <img src="/assets/img/int.png" alt="Static" class="img-fluid rounded z-depth-1" />
+    </a>
+    <p class="caption mt-2 text-center">
+      Reverted to static ARP configuration on Victim.
+    </p>
+  </div>
+</div>
+<div class="row mt-4 text-center">
+  <div class="col-sm-8 mx-auto mt-3 mt-md-0">
+    <a href="/assets/img/perm.png" data-lightbox="standards8" data-title="Ubuntu">
+      <img src="/assets/img/perm.png" alt="Ubuntu" class="img-fluid rounded z-depth-1" />
+    </a>
+    <p class="caption mt-2 text-center">
+      Reverted to static ARP configuration on Ubuntu.
+    </p>
+  </div>
+</div>
 
 🧰 Detection Tools
 Tools for ARP Spoofing detection:
