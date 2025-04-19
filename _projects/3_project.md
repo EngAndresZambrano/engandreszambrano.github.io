@@ -45,17 +45,17 @@ The report covers several critical and high-severity vulnerabilities, including:
 
  <div class="row text-center mt-4">
   <div class="col-sm mt-3 mt-md-0">
-    <a href="/assets/img/owasp.png" data-lightbox="standards1" data-title="NIST CSF">
+    <a href="/assets/img/owasp.png" data-lightbox="standards1" data-title="OWASP">
       <img src="/assets/img/owasp.png" alt="OWASP" class="img-fluid rounded z-depth-1" />
     </a>
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    <a href="/assets/img/nessus.png" data-lightbox="standards1" data-title="COBIT">
+    <a href="/assets/img/nessus.png" data-lightbox="standards1" data-title="Nessus">
       <img src="/assets/img/nessus.png" alt="Nessus" class="img-fluid rounded z-depth-1" />
     </a>
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    <a href="/assets/img/nikto.png" data-lightbox="standards1" data-title="CIS CSC">
+    <a href="/assets/img/nikto.png" data-lightbox="standards1" data-title="Nikto">
       <img src="/assets/img/nikto.png" alt="Nikto" class="img-fluid rounded z-depth-1" />
     </a>
   </div>
@@ -76,12 +76,12 @@ Designed for both educational and professional development purposes, this projec
 
 <div class="row text-center">
   <div class="col-sm mt-3 mt-md-0">
-    <a href="/assets/img/matasploit.png" data-lightbox="standards2" data-title="OWASP">
+    <a href="/assets/img/matasploit.png" data-lightbox="standards2" data-title="Metasploit">
       <img src="/assets/img/metasploit.png" alt="Metasploit" class="img-fluid rounded z-depth-1" />
     </a>
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    <a href="/assets/img/gobuster.png" data-lightbox="standards2" data-title="OWISAM">
+    <a href="/assets/img/gobuster.png" data-lightbox="standards2" data-title="Gobuster">
       <img src="/assets/img/gobuster.png" alt="Gobuster" class="img-fluid rounded z-depth-1" />
     </a>
   </div>
@@ -93,13 +93,16 @@ Designed for both educational and professional development purposes, this projec
 
 The following images display the key findings from the activity. Using the John the Ripper tool, a hash found in the passwd file was successfully cracked for the user 'kali'. With these credentials, privilege escalation was achieved through the execution of a setuid binary, utilizing Radare2 for analysis and exploitation.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ripper.png" title="Cracked Password" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="row text-center">
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="/assets/img/ripper.png" data-lightbox="standards3" data-title="Cracked Password">
+      <img src="/assets/img/ripper.png" alt="Cracked Password" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="/assets/img/privilegios.png" data-lightbox="standards3" data-title="Privilege Escalation">
+      <img src="/assets/img/privilegios.png" alt="Privilege Escalation" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/privilegios.png" title="Privilege Escalation" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+
