@@ -84,25 +84,22 @@ Owner: A Toda Hora S.A (Grupo Aval)
 📁 3. AES Encryption Process
 We create an AES folder in the Kali desktop and proceed with private key generation.
 
-<div class="row mt-4 text-center">
-  <div class="col-sm-8 mx-auto mt-3 mt-md-0">
+<div class="row mt-4 text-center justify-content-center">
+  <div class="col-md-5 mt-3 mt-md-0">
     <a href="/assets/img/createaes.png" data-lightbox="standards3" data-title="Create">
       <img src="/assets/img/createaes.png" alt="Create" class="img-fluid rounded z-depth-1" />
     </a>
   </div>
-</div>
-
-<div class="row mt-4 text-center">
-  <div class="col-sm-8 mx-auto mt-3 mt-md-0">
+  <div class="col-md-5 mt-3 mt-md-0">
     <a href="/assets/img/initaes.png" data-lightbox="standards3" data-title="Vector">
       <img src="/assets/img/initaes.png" alt="Vector" class="img-fluid rounded z-depth-1" />
     </a>
   </div>
 </div>
-<div class="caption">
-   Private key creation.
-   Initialization vector (IV) generation.
-</div>
+
+<p class="caption mt-2 text-center">
+  Private key creation. Initialization vector (IV) generation.
+</p>
 
 We use CBC (Cipher Block Chaining) for encryption.
 
