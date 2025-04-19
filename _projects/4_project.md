@@ -33,14 +33,14 @@ This project provides a detailed walkthrough of various cryptographic processes 
 🔐 1. Available Cipher Algorithms
 By executing openssl ciphers -v, you can retrieve the list of available cipher algorithms in OpenSSL.
 
-<div class="row mt-4">
-  <div class="col-sm mt-3 mt-md-0 text-center">
+<div class="row mt-4 justify-content-center">
+  <div class="col-sm-10 text-center">
     <a href="/assets/img/listaopenssl.png" data-lightbox="grupo1" data-title="Open SSL List">
       <img src="/assets/img/listaopenssl.png" alt="Open SSL List" class="img-fluid rounded z-depth-1" style="max-width: 60%; height: auto;" />
     </a>
-    <div class="caption mt-2">
+    <p class="caption mt-2 text-center">
       List of available ciphers via OpenSSL.
-    </div>
+    </p>
   </div>
 </div>
 
@@ -106,14 +106,16 @@ We create an AES folder in the Kali desktop and proceed with private key generat
 
 We use CBC (Cipher Block Chaining) for encryption.
 
-<div class="row mt-4">
-   <div class="col-sm mt-3 mt-md-0 text-center">
-      <a href="/assets/img/block.png" data-lightbox="grupo" data-title="CCBC">
+<div class="row mt-4 justify-content-center">
+  <div class="col-sm-10 text-center">
+    <a href="/assets/img/block.png" data-lightbox="grupo" data-title="CCBC">
       <img src="/assets/img/block.png" alt="CCBC" class="img-fluid rounded z-depth-1" style="max-width: 60%; height: auto;" />
-   </a>
-</div>
-<div class="caption">
-   CBC Mode Process Diagram (from GeeksForGeeks) - Image taken from https://www.geeksforgeeks.org/block-cipher-modes-of-operation/.
+    </a>
+    <p class="caption mt-2 text-center">
+      CBC Mode Process Diagram (from GeeksForGeeks) – Image taken from 
+      <a href="https://www.geeksforgeeks.org/block-cipher-modes-of-operation/" target="_blank">https://www.geeksforgeeks.org/block-cipher-modes-of-operation/</a>.
+    </p>
+  </div>
 </div>
 
 How CBC Works:
