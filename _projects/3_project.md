@@ -21,10 +21,11 @@ The findings were compiled into a professional audit report using PwnDoc:
   
 Which ensures a structured format with key sections such as execution timeline, executive summary, vulnerability overview, and detailed technical analysis. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/portada.png" title="Black Box Services" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="row mt-4">
+   <div class="col-sm mt-3 mt-md-0 text-center">
+      <a href="/assets/img/portada.png" data-lightbox="grupo1" data-title="Black Box Services">
+      <img src="/assets/img/portada.png" alt="Black Box Services" class="img-fluid rounded z-depth-1" style="max-width: 60%; height: auto;" />
+   </a>
 </div>
 <div class="caption">
     Services identified on the black box after conducting the ethical hacking activity.
