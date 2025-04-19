@@ -34,15 +34,14 @@ This project provides a detailed walkthrough of various cryptographic processes 
 By executing openssl ciphers -v, you can retrieve the list of available cipher algorithms in OpenSSL.
 
 <div class="row mt-4">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/listaopenssl.png" title="ISO 22301" class="img-fluid rounded z-depth-1" %}
-    </div>
+   <div class="col-sm mt-3 mt-md-0 text-center">
+      <a href="/assets/img/listaopenssl.png" data-lightbox="grupo1" data-title="Open SSL List">
+      <img src="/assets/img/listaopenssl.png" alt="Open SSL List" class="img-fluid rounded z-depth-1" style="max-width: 60%; height: auto;" />
+   </a>
 </div>
 <div class="caption">
    List of available ciphers via OpenSSL.
 </div>
-
-
 
 🌐 2. Certificate Verification in HTTPS Connections
 Using openssl s_client www.avalpaycenter.com:443, we retrieve the following certificate data from a secure website.
@@ -108,13 +107,10 @@ We use CBC (Cipher Block Chaining) for encryption.
 
 <div class="row mt-4">
    <div class="col-sm mt-3 mt-md-0 text-center">
-      <a href="/assets/img/tu-imagen.png" data-lightbox="grupo" data-title="CCBC">
-      <img src="/assets/img/block.png" alt="Descripción" class="img-fluid rounded z-depth-1" style="max-width: 60%; height: auto;" />
+      <a href="/assets/img/block.png" data-lightbox="grupo" data-title="CCBC">
+      <img src="/assets/img/block.png" alt="CCBC" class="img-fluid rounded z-depth-1" style="max-width: 60%; height: auto;" />
    </a>
 </div>
-
-</div>
-
 <div class="caption">
    CBC Mode Process Diagram (from GeeksForGeeks) - Image taken from https://www.geeksforgeeks.org/block-cipher-modes-of-operation/.
 </div>
