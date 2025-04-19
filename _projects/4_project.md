@@ -30,10 +30,6 @@ This project provides a detailed walkthrough of various cryptographic processes 
   </div>
 </div>
 
-<div class="caption">
-    FALTA!!!!!!!!!!!!
-</div>
-
 🔐 1. Available Cipher Algorithms
 By executing openssl ciphers -v, you can retrieve the list of available cipher algorithms in OpenSSL.
 
@@ -111,10 +107,14 @@ We create an AES folder in the Kali desktop and proceed with private key generat
 We use CBC (Cipher Block Chaining) for encryption.
 
 <div class="row mt-4">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="/assets/img/block.png" title="ISO 22301" class="img-fluid rounded z-depth-1" %}
-    </div>
+   <div class="col-sm mt-3 mt-md-0 text-center">
+      <a href="/assets/img/tu-imagen.png" data-lightbox="grupo" data-title="CCBC">
+      <img src="/assets/img/block.png" alt="Descripción" class="img-fluid rounded z-depth-1" style="max-width: 60%; height: auto;" />
+   </a>
 </div>
+
+</div>
+
 <div class="caption">
    CBC Mode Process Diagram (from GeeksForGeeks) - Image taken from https://www.geeksforgeeks.org/block-cipher-modes-of-operation/.
 </div>
