@@ -30,7 +30,7 @@ This project provides a detailed walkthrough of various cryptographic processes 
   </div>
 </div>
 
-🔐 1. Available Cipher Algorithms
+<h3>🔐 1. Available Cipher Algorithms</h3>
 By executing openssl ciphers -v, you can retrieve the list of available cipher algorithms in OpenSSL.
 
 <div class="row mt-4 justify-content-center">
@@ -44,7 +44,7 @@ By executing openssl ciphers -v, you can retrieve the list of available cipher a
   </div>
 </div>
 
-🌐 2. Certificate Verification in HTTPS Connections
+<h3>🌐 2. Certificate Verification in HTTPS Connections</h3>
 Using openssl s_client www.avalpaycenter.com:443, we retrieve the following certificate data from a secure website.
 
 <div class="row mt-4 text-center">
@@ -81,7 +81,7 @@ TLS version: 1.3 with AES-128 and SHA256
 
 Owner: A Toda Hora S.A (Grupo Aval)
 
-📁 3. AES Encryption Process
+<h3>📁 3. AES Encryption Process</h3>
 We create an AES folder in the Kali desktop and proceed with private key generation.
 
 <div class="row mt-4 text-center justify-content-center">
@@ -127,14 +127,14 @@ Vulnerable to padding oracle attacks
 
 No authentication by default
 
-⚡ ChaCha20-Poly1305 Encryption
+<h3>⚡ ChaCha20-Poly1305 Encryption</h3>
 ChaCha20: Fast stream cipher, hardware independent, 256-bit key
 
 Poly1305: Message authentication code (MAC), ensures data integrity
 
 Used in HTTPS, VPNs, mobile apps.
 
-🔄 AES-GCM Mode
+<h3>🔄 AES-GCM Mode</h3>
 AES with Galois/Counter Mode for authenticated encryption.
 
 Benefits:
@@ -147,7 +147,7 @@ Ideal for modern TLS/HTTPS protocols
 
 Secure and fast with AES-NI support
 
-📂 Practical Encryption Example
+<h3>📂 Practical Encryption Example</h3>
 Encrypting LABTextoClaro.txt with AES-256-CBC using:
 
 <div class="row justify-content-sm-center">
@@ -186,7 +186,7 @@ Encrypting LABTextoClaro.txt with AES-256-CBC using:
   </div>
 </div>
 
-❌ Removing Plaintext and Decrypting File
+<h3>❌ Removing Plaintext and Decrypting File</h3>
 The original file is deleted and the encrypted one is decrypted:
 
 <div class="row justify-content-sm-center">
@@ -228,7 +228,7 @@ The original file is deleted and the encrypted one is decrypted:
   </div>
 </div>
 
-⏱️ Encryption Performance Benchmark
+<h3>⏱️ Encryption Performance Benchmark</h3>
 Using time to measure processing speed:
 
 <div class="row justify-content-sm-center">
@@ -254,7 +254,7 @@ Expected times:
 
 1GB AES-256: ~1–4 sec
 
-🔑 How Linux Stores Passwords
+<h3>🔑 How Linux Stores Passwords</h3>
 Linux stores:
 
 Users in /etc/passwd
@@ -270,7 +270,7 @@ Hashed passwords in /etc/shadow using secure hash functions
    Hash entries in the shadow file.
 </div>
 
-⚠️ Insecure Login Example (No TLS)
+<h3>⚠️ Insecure Login Example (No TLS)</h3>
 The website http://divtic.net/diplomados/login/index.php lacks TLS encryption.
 
 <div class="row mt-4">
@@ -303,7 +303,7 @@ After sending fake credentials (Pepe), Wireshark is used to intercept HTTP POST 
    Login attempt with test credentials - Wireshark capture showing credentials in clear text.
 </div>
 
-📚 References
+<h3>📚 References</h3>
 <ul>
   <li><a href="https://www.researchgate.net/figure/Cipher-block-chaining-CBC-mode-encryption_fig1_215783767" target="_blank">ResearchGate – Cipher block chaining (CBC) mode encryption</a></li>
   <li><a href="https://www.geeksforgeeks.org/block-cipher-modes-of-operation/" target="_blank">GeeksForGeeks – Block Cipher Modes of Operation</a></li>
