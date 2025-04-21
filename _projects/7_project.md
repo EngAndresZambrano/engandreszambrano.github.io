@@ -95,26 +95,56 @@ root.mainloop()</code></pre>
 <h3>🧾 Example Output</h3>
 <pre><code class="language-csv">IP,Country,Coordinates,Recursive,Secure
 8.8.8.8,USA,"37.751, -97.822",Yes,Yes
-185.228.168.9,Israel,"32.0853, 34.7818",Yes,Yes</code></pre>
+185.228.xxx.x,Israel,"xx.0853, xx.7818",Yes,Yes</code></pre>
 
 <h4>🔽 Download Full Report:</h4>
-<a href="dns_scan_results.csv" download>
-  <button>📥 Download Full Scan Report</button>
-</a>
+ <div class="mt-4">
+    <a href="{{ '/assets/pdf/DNS-audit_prompt_engineering.pdf' | relative_url }}" class="btn btn-primary" download>
+      📄 Download full Step by Step manual PDF
+    </a>
+  </div>
 
 <h3>📸 Visual Output</h3>
-<ul>
-  <li><strong>Image 1 - Script Window Initialization</strong><br/><img src="assets/img/gui_start.jpg" alt="Initial Prompt Window" /></li>
-  <li><strong>Image 2 - Execution Feedback</strong><br/><img src="assets/img/scan_feedback.jpg" alt="Scanning Results" /></li>
-  <li><strong>Image 3 - Final CSV File Validation</strong><br/><img src="assets/img/csv_validation.jpg" alt="CSV File Results" /></li>
-</ul>
 
-<h3>🧾 References</h3>
+<div class="row text-center">
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="/assets/img/gui_start.png" data-lightbox="standards" data-title="Initial Prompt Window">
+      <img src="/assets/img/gui_start.png" alt="Initial Prompt Window" class="img-fluid rounded z-depth-1" />
+    </a>
+    <div class="caption mt-2">
+      Script Window Initialization.
+    </div>
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="/assets/img/scan_feedback.png" data-lightbox="standards" data-title="Scanning Results">
+      <img src="/assets/img/scan_feedback.png" alt="Scanning Results" class="img-fluid rounded z-depth-1" />
+    </a>
+    <div class="caption mt-2">
+      Execution Feedback.
+    </div>
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    <a href="/assets/img/csv_validation.png" data-lightbox="standards" data-title="CSV File Results">
+      <img src="/assets/img/csv_validation.png" alt="CSV File Results" class="img-fluid rounded z-depth-1" />
+    </a>
+    <div class="caption mt-2">
+      Final CSV File Validation.
+    </div>
+  </div>
+</div>
+
+<h3>📚 References</h3>
 <ul>
   <li>OpenAI. (2025). ChatGPT (version 4). https://chatgpt.com/</li>
   <li>Shodan API Docs. https://developer.shodan.io/</li>
   <li>dnspython Docs. https://dnspython.readthedocs.io/</li>
   <li>Geopy Docs. https://geopy.readthedocs.io/</li>
+  <li>https://www.xataka.com/basics/como-mejorar-respuestas-chatgpt-9-pasos-para-garantizar-mayor-calidad-mejores-fuentes</li>
+  <li>https://skimai.com/es/las-personas-en-la-ingenieria-rapida/</li>
+  <li>https://docs.python.org/3/library/tkinter.html</li>
+  <li>https://www.vpnbook.com/freevpn</li>
+  <li>https://protonvpn.com/</li>
+  <li>https://whatismyipaddress.com/</li>
 </ul>
 
 <h3>🧠 Conclusions</h3>
