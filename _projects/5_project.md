@@ -5,6 +5,8 @@ description: This project focuses on simulating a Man-in-the-Middle (MitM) attac
 img: assets/img/img_title5.png
 importance: 5
 category: academic
+images:
+  lightbox2: true
 ---
 
 <h3>🕵️‍♂️ Man-in-the-Middle Attack (MitM)</h3>
