@@ -4,7 +4,7 @@ title: Elastic SIEM Lab - A Practical Guide to Security Monitoring with the Elas
 description: A step-by-step lab for deploying Elastic SIEM using Kali Linux and Windows clients. Includes log integration, detection rules, and real-time dashboards with Kibana for security monitoring and analysis.
 img: assets/img/img_title2.jpg
 importance: 3
-category: academic
+category: 2024 academic
 giscus_comments: false
 ---
 
