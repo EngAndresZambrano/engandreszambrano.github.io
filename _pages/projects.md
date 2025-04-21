@@ -5,7 +5,7 @@ permalink: /projects/
 description: Professional CyberLab Projects.
 nav: true
 nav_order: 3
-display_categories: [academic, work, fun]
+display_categories: [2025 academic, 2024 academic, work]
 horizontal: false
 ---
 
