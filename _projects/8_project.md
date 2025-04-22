@@ -86,6 +86,13 @@ category: 2025 academic
   </div>
 </div>
 
+<h4>🔽 Download Scanner Audit Script:</h4>
+<div class="mt-4">
+  <a href="{{ '/assets/pdf/scriptSSHTelnet.py' | relative_url }}" class="btn btn-primary" download>
+    🐍 Download Python Script
+  </a>
+</div>
+
 <div class="mb-4">
   <h3>🧪 Conclusions</h3>
   <p class="text-gray-600">
@@ -100,10 +107,3 @@ category: 2025 academic
     <a href="https://pypi.org/project/telnetlib3/" class="underline">telnetlib3</a> ·
     <a href="https://docs.python.org/3/library/tkinter.html" class="underline">tkinter docs</a>
   </ul>
-
-<h4>🔽 Download Scanner Audit Script:</h4>
-<div class="mt-4">
-  <a href="{{ '/assets/pdf/scriptSSHTelnet.py' | relative_url }}" class="btn btn-primary" download>
-    🐍 Download Python Script
-  </a>
-</div>
