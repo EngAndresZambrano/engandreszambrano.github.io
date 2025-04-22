@@ -21,17 +21,16 @@ category: 2025 academic
   <li>Asking for references and justifications</li>
   <li>Iterative debugging through feedback-based prompts</li>
 
-  <section id="ssh-telnet-audit" class="container mx-auto bg-white shadow-md rounded-lg p-6 mb-8">
-    <h2 class="text-2xl font-bold text-gray-800 mb-4">🔍 SSH and Telnet Services Audit</h2>
+  <h2>🔍 SSH and Telnet Services Audit</h2>
 
-    <p class="text-gray-600 mb-4">
+    <p>
       This application was developed in Python with a Tkinter-based graphical interface, compatible with Kali Linux. It audits SSH and Telnet services exposed on the internet by querying the Shodan API. The tool automates access attempts using common credentials to identify vulnerable systems.
     </p>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
       <div>
-        <h3 class="text-lg font-semibold text-gray-700 mb-2">🛠️ Technologies Used</h3>
-        <ul class="list-disc list-inside text-gray-600">
+        <h3>🛠️ Technologies Used</h3>
+        <ul>
           <li>Python 3</li>
           <li>Tkinter (GUI)</li>
           <li>Paramiko (SSH)</li>
@@ -41,8 +40,8 @@ category: 2025 academic
         </ul>
       </div>
       <div>
-        <h3 class="text-lg font-semibold text-gray-700 mb-2">🔐 Security-Focused Approach</h3>
-        <ul class="list-disc list-inside text-gray-600">
+        <h3>🔐 Security-Focused Approach</h3>
+        <ul>
           <li>Auditing within controlled environments</li>
           <li>Internal network protected by VPN and firewall</li>
           <li>Isolated test credentials</li>
@@ -52,7 +51,7 @@ category: 2025 academic
       </div>
     </div>
 
-    <h3 class="text-lg font-semibold text-gray-700 mb-2">📋 Key Features</h3>
+    <h3>📋 Key Features</h3>
     <ul class="list-decimal list-inside text-gray-600 mb-4">
       <li>Queries exposed IPs via Shodan on ports 22 (SSH) and 23 (Telnet)</li>
       <li>Automatically attempts login using common credentials</li>
@@ -84,5 +83,9 @@ category: 2025 academic
       <a href="https://docs.python.org/3/library/tkinter.html" class="underline">tkinter docs</a>
     </div>
 
-    <a href="https://github.com/andresdev/ssh-telnet-auditor" class="inline-block mt-4 text-blue-600 hover:text-blue-800 font-semibold">🔗 View Code on GitHub</a>
-  </section>
+    <h4>🔽 Download Scanner Audit Script :</h4>
+    <div class="mt-4">
+        <a href="{{ '/assets/pdf/scriptSSHTelnet.py' | relative_url }}" class="btn btn-primary" download>
+        🐍 Download Python Script
+      </a>
+    </div>
