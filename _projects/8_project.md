@@ -25,7 +25,7 @@ category: 2025 academic
 <h2>🔍 SSH and Telnet Services Audit</h2>
 <p>This application was developed in Python with a Tkinter-based graphical interface, compatible with Kali Linux. It audits SSH and Telnet services exposed on the internet by querying the Shodan API. The tool automates access attempts using common credentials to identify vulnerable systems.</p>
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
+<div class="row text-center">
   <div class="p-4">
     <h3>🛠️ Technologies Used</h3>
     <ul>
@@ -59,11 +59,36 @@ category: 2025 academic
 </ul>
 
 <h3>📸 Screenshots</h3>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
-  <img src="/assets/proyecto2-api.png" alt="API Input Window" class="rounded-lg shadow-lg">
-  <img src="/assets/proyecto2-ejecucion.png" alt="Scan in Progress" class="rounded-lg shadow-lg">
-  <img src="/assets/proyecto2-resultados.png" alt="Scan Results" class="rounded-lg shadow-lg">
-  <img src="/assets/proyecto2-csv.png" alt="Generated CSV File" class="rounded-lg shadow-lg">
+<div class="row mt-4 text-center">
+  <div class="col-sm-8 mx-auto mt-3 mt-md-0">
+    <a href="/assets/img/apip7.png" data-lightbox="standards" data-title="API Input Window">
+      <img src="/assets/img/apip7.png" alt="API Input Window" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+
+<div class="row mt-4 text-center">
+  <div class="col-sm-8 mx-auto mt-3 mt-md-0">
+    <a href="/assets/img/scanp7.png" data-lightbox="standards" data-title="Scan in Progress">
+      <img src="/assets/img/scanp7.png" alt="Scan in Progress" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+
+<div class="row mt-4 text-center">
+  <div class="col-sm-8 mx-auto mt-3 mt-md-0">
+    <a href="/assets/img/resulp7.png" data-lightbox="standards" data-title="Scan Results">
+      <img src="/assets/img/resulp7.png" alt="Scan Results" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+
+<div class="row mt-4 text-center">
+  <div class="col-sm-8 mx-auto mt-3 mt-md-0">
+    <a href="/assets/img/cdvp7.png" data-lightbox="standards" data-title="Generated CSV File">
+      <img src="/assets/img/cdvp7.png" alt="Generated CSV File" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
 </div>
 
 <div class="mb-4">
