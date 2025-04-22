@@ -98,15 +98,13 @@ category: 2025 academic
   </p>
 </div>
 
-<div class="mb-4">
-  <h4>References:</h4>
-  <p>
+  <h4>📚 References</h4>
+  <ul>
     <a href="https://developer.shodan.io/" class="underline">developer.shodan.io</a> ·
     <a href="https://www.paramiko.org/" class="underline">paramiko.org</a> ·
     <a href="https://pypi.org/project/telnetlib3/" class="underline">telnetlib3</a> ·
     <a href="https://docs.python.org/3/library/tkinter.html" class="underline">tkinter docs</a>
-  </p>
-</div>
+  </ul>
 
 <h4>🔽 Download Scanner Audit Script:</h4>
 <div class="mt-4">
