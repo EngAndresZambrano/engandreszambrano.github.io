@@ -51,17 +51,29 @@ images:
 
 <h3>💻 Code Snippet: Basic DNS Scan GUI 🧪</h3>
 <pre><code class="language-python">import tkinter as tk
-from tkinter import messagebox
+def crear_interfaz():
+    ventana = tk.Tk()
+    ventana.title("Escaneo DNS")
+    ventana.geometry("600x500")
 
-root = tk.Tk()
-root.title("DNS Scan")
-label = tk.Label(root, text="Scanning...", font=("Arial", 14))
-label.pack(pady=20)
+    etiqueta_api = tk.Label(ventana, text="Clave API de Shodan:")
+    etiqueta_api.pack(pady=5)
 
-# Additional logic to interface with Shodan and scan IPs
-dns_scan()
+    entrada_api = tk.Entry(ventana, width=50, show='*')
+    entrada_api.pack(pady=5)
 
-root.mainloop()</code></pre>
+    texto_salida = scrolledtext.ScrolledText(ventana, width=70, height=25)
+    texto_salida.pack(pady=10)
+
+    boton_iniciar = tk.Button(
+        ventana,
+        text="Iniciar Escaneo",
+        command=lambda: iniciar_busqueda(entrada_api.get(), texto_salida)
+    )
+    boton_iniciar.pack(pady=5)
+
+    ventana.mainloop()
+</code></pre>
 <p>📌 This snippet demonstrates the basic <code>tkinter</code> structure used to dynamically display scan results.</p>
 
 <h3>📉 Troubleshooting & Refinement</h3>
@@ -97,10 +109,10 @@ root.mainloop()</code></pre>
 8.8.8.8,USA,"37.751, -97.822",Yes,Yes
 185.228.xxx.x,Israel,"xx.0853, xx.7818",Yes,Yes</code></pre>
 
-<h4>🔽 Download Full Report:</h4>
+<h4>🔽 Download Advanced Mode Script :</h4>
  <div class="mt-4">
-    <a href="{{ '/assets/pdf/DNS-audit_prompt_engineering.pdf' | relative_url }}" class="btn btn-primary" download>
-      📄 Download full Step by Step manual PDF
+    <a href="{{ '/assets/pdf/scandnsadvcsv.py' | relative_url }}" class="btn btn-primary" download>
+      🐍 Download Python Script
     </a>
   </div>
 
