@@ -26,15 +26,15 @@ Designed for academic use and hands-on learning, this lab provides a realistic a
 
 The video demonstrates the use of Elastic SIEM and Kibana for real-time security monitoring and incident response. Key features include:
 
-<strong>Real-time Monitoring:</strong> Elastic SIEM enables the tracking of security events as they occur, helping to identify potential vulnerabilities such as unauthorized port scans and pings.
+✅ <strong>Real-time Monitoring:</strong> Elastic SIEM enables the tracking of security events as they occur, helping to identify potential vulnerabilities such as unauthorized port scans and pings.
 
-<strong>Alert Generation:</strong> The system automatically triggers alerts for suspicious activities and sends notifications via email, facilitating quick incident response.
+✅ <strong>Alert Generation:</strong> The system automatically triggers alerts for suspicious activities and sends notifications via email, facilitating quick incident response.
 
-<strong>Interactive Dashboards:</strong> Elastic SIEM offers dashboards that visualize security statistics and trends, assisting teams in detecting patterns and suspicious behavior.
+✅ <strong>Interactive Dashboards:</strong> Elastic SIEM offers dashboards that visualize security statistics and trends, assisting teams in detecting patterns and suspicious behavior.
 
-<strong>Active Prevention:</strong> Beyond monitoring, the system can block unauthorized actions and generate detailed incident reports, enhancing threat response capabilities.
+✅ <strong>Active Prevention:</strong> Beyond monitoring, the system can block unauthorized actions and generate detailed incident reports, enhancing threat response capabilities.
 
-<strong>Log Integration and Analysis:</strong> The system integrates logs from various machines, allowing for comprehensive security analysis and threat detection.
+✅ <strong>Log Integration and Analysis:</strong> The system integrates logs from various machines, allowing for comprehensive security analysis and threat detection.
 
 These features make Elastic SIEM a powerful tool for managing and responding to security threats efficiently.
 
