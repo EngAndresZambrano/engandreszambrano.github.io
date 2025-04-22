@@ -8,7 +8,7 @@ category: 2025 academic
 ---
 
 <h3>🧠 DNS Audit Tool — Highlights of Development</h3>
-<p>This project involves the development of a Python application designed to perform SSH and Telnet service audits using the Shodan API. The application is created with prompt engineering and AI, focusing on scanning services to identify vulnerabilities. The environment for this audit is a virtual machine with an internal network protected by a firewall to prevent unauthorized traffic, and a VPN service is deployed on the host machine to obscure the IP address. After completing the scan, the application exports the findings into a CSV file, providing a comprehensive report for further review. This audit is carried out in a controlled, academic environment, ensuring security measures are in place to prevent any impact on the virtual environment. The GUI was built using <code>tkinter</code>.</p>
+<p>This project involves the development of a Python application designed to perform SSH and Telnet service audits using the Shodan API. The application is created with prompt engineering and AI, focusing on scanning services to identify vulnerabilities. The environment for this audit is a virtual machine with an internal network protected by a firewall to prevent unauthorized traffic, and a VPN service is deployed on the host machine to obscure the IP address. After completing the scan, the application exports the findings into a CSV file, providing a comprehensive report for further review. This audit is carried out in a controlled, academic environment, ensuring security measures are in place to prevent any impact on the virtual environment. The GUI was built using tkinter.</p>
 
 <p><strong>Note:</strong> This academic project was developed in a controlled, secure virtual environment (internal network, VM with Kali Linux, firewall, VPN) to avoid any potential network risks.</p>
 
@@ -23,9 +23,9 @@ category: 2025 academic
 </ul>
 
 <h2>🔍 SSH and Telnet Services Audit</h2>
-
 <p>This application was developed in Python with a Tkinter-based graphical interface, compatible with Kali Linux. It audits SSH and Telnet services exposed on the internet by querying the Shodan API. The tool automates access attempts using common credentials to identify vulnerable systems.</p>
 
+<!-- Remover clases que aplican estilos no deseados -->
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
   <div>
     <h3>🛠️ Technologies Used</h3>
@@ -68,13 +68,13 @@ category: 2025 academic
 </div>
 
 <div class="mb-4">
-  <h3 class="text-lg font-semibold text-gray-700">🧪 Conclusions</h3>
+  <h3>🧪 Conclusions</h3>
   <p class="text-gray-600">
     This project highlighted that many servers remain exposed with default or weak credentials. Automated auditing tools such as this one are essential for identifying vulnerabilities and promoting best practices in secure network service management.
   </p>
 </div>
 
-<div class="text-sm text-gray-500 italic">
+<div>
   References: <br>
   <a href="https://developer.shodan.io/" class="underline">developer.shodan.io</a> ·
   <a href="https://www.paramiko.org/" class="underline">paramiko.org</a> ·
@@ -88,4 +88,3 @@ category: 2025 academic
     🐍 Download Python Script
   </a>
 </div>
-
