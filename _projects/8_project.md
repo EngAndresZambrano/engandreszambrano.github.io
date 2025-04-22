@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  SSH and Telnet Audit Application Using Shodan API
+title: SSH and Telnet Audit Application Using Shodan API
 description: A Python application for auditing SSH and Telnet services, leveraging the Shodan API and prompt engineering with AI. The application scans the network and exports findings in CSV format for further analysis.
 img: assets/img/img_title8.png
 importance: 8
@@ -25,9 +25,8 @@ category: 2025 academic
 <h2>🔍 SSH and Telnet Services Audit</h2>
 <p>This application was developed in Python with a Tkinter-based graphical interface, compatible with Kali Linux. It audits SSH and Telnet services exposed on the internet by querying the Shodan API. The tool automates access attempts using common credentials to identify vulnerable systems.</p>
 
-<!-- Remover clases que aplican estilos no deseados -->
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-  <div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
+  <div class="p-4">
     <h3>🛠️ Technologies Used</h3>
     <ul>
       <li>Python 3</li>
@@ -38,7 +37,7 @@ category: 2025 academic
       <li>CSV (results export)</li>
     </ul>
   </div>
-  <div>
+  <div class="p-4">
     <h3>🔐 Security-Focused Approach</h3>
     <ul>
       <li>Auditing within controlled environments</li>
@@ -60,7 +59,7 @@ category: 2025 academic
 </ul>
 
 <h3>📸 Screenshots</h3>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
   <img src="/assets/proyecto2-api.png" alt="API Input Window" class="rounded-lg shadow-lg">
   <img src="/assets/proyecto2-ejecucion.png" alt="Scan in Progress" class="rounded-lg shadow-lg">
   <img src="/assets/proyecto2-resultados.png" alt="Scan Results" class="rounded-lg shadow-lg">
@@ -74,15 +73,17 @@ category: 2025 academic
   </p>
 </div>
 
-<div>
-  References: <br>
-  <a href="https://developer.shodan.io/" class="underline">developer.shodan.io</a> ·
-  <a href="https://www.paramiko.org/" class="underline">paramiko.org</a> ·
-  <a href="https://pypi.org/project/telnetlib3/" class="underline">telnetlib3</a> ·
-  <a href="https://docs.python.org/3/library/tkinter.html" class="underline">tkinter docs</a>
+<div class="mb-4">
+  <h4>References:</h4>
+  <p>
+    <a href="https://developer.shodan.io/" class="underline">developer.shodan.io</a> ·
+    <a href="https://www.paramiko.org/" class="underline">paramiko.org</a> ·
+    <a href="https://pypi.org/project/telnetlib3/" class="underline">telnetlib3</a> ·
+    <a href="https://docs.python.org/3/library/tkinter.html" class="underline">tkinter docs</a>
+  </p>
 </div>
 
-<h4>🔽 Download Scanner Audit Script :</h4>
+<h4>🔽 Download Scanner Audit Script:</h4>
 <div class="mt-4">
   <a href="{{ '/assets/pdf/scriptSSHTelnet.py' | relative_url }}" class="btn btn-primary" download>
     🐍 Download Python Script
