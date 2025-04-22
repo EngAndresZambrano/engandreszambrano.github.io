@@ -26,7 +26,6 @@ category: 2025 academic
 <p>This application was developed in Python with a Tkinter-based graphical interface, compatible with Kali Linux. It audits SSH and Telnet services exposed on the internet by querying the Shodan API. The tool automates access attempts using common credentials to identify vulnerable systems.</p>
 
 <div class="row text-center">
-  <div class="p-4">
     <h3>🛠️ Technologies Used</h3>
     <ul>
       <li>Python 3</li>
@@ -36,8 +35,7 @@ category: 2025 academic
       <li>Shodan API</li>
       <li>CSV (results export)</li>
     </ul>
-  </div>
-  <div class="p-4">
+
     <h3>🔐 Security-Focused Approach</h3>
     <ul>
       <li>Auditing within controlled environments</li>
@@ -46,7 +44,6 @@ category: 2025 academic
       <li>Secure connection practices</li>
       <li>Ethical hacking principles respected</li>
     </ul>
-  </div>
 </div>
 
 <h3>📋 Key Features</h3>
