@@ -86,7 +86,7 @@ category: 2025 academic
   </div>
 </div>
 
-<h4>🔽 Download Scanner Audit Script:</h4>
+<h4 class="mt-5">🔽 Download Scanner Audit Script:</h4>
 <div class="mt-4">
   <a href="{{ '/assets/pdf/scriptSSHTelnet.py' | relative_url }}" class="btn btn-primary" download>
     🐍 Download Python Script
@@ -102,8 +102,8 @@ category: 2025 academic
 
   <h4>📚 References</h4>
   <ul>
-    <a href="https://developer.shodan.io/" class="underline">developer.shodan.io</a> ·
-    <a href="https://www.paramiko.org/" class="underline">paramiko.org</a> ·
-    <a href="https://pypi.org/project/telnetlib3/" class="underline">telnetlib3</a> ·
-    <a href="https://docs.python.org/3/library/tkinter.html" class="underline">tkinter docs</a>
+    <li><a href="https://developer.shodan.io/" class="underline">developer.shodan.io</a></li>
+    <li><a href="https://www.paramiko.org/" class="underline">paramiko.org</a></li>
+    <li><a href="https://pypi.org/project/telnetlib3/" class="underline">telnetlib3</a></li>
+    <li><a href="https://docs.python.org/3/library/tkinter.html" class="underline">tkinter docs</a></li>
   </ul>
