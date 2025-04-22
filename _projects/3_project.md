@@ -34,15 +34,15 @@ Which ensures a structured format with key sections such as execution timeline, 
 
 The report covers several critical and high-severity vulnerabilities, including:
 
- <strong>CVE-2023-26048 (Jetty DDoS vulnerability)</strong>
+✅ <strong>CVE-2023-26048 (Jetty DDoS vulnerability)</strong>
 
- <strong>CVE-2024-23897 (Arbitrary file read in Jenkins)</strong>
+✅ <strong>CVE-2024-23897 (Arbitrary file read in Jenkins)</strong>
 
- <strong>CVE-2024-40725 (Source code disclosure)</strong>
+✅ <strong>CVE-2024-40725 (Source code disclosure)</strong>
 
- <strong>Privilege escalation via GNU Screen 4.5.0</strong>
+✅ <strong>Privilege escalation via GNU Screen 4.5.0</strong>
 
- <strong>Weak/default credentials and web-based injection attempts</strong>
+✅ <strong>Weak/default credentials and web-based injection attempts</strong>
 
  <div class="row text-center mt-4">
   <div class="col-sm mt-3 mt-md-0">
