@@ -19,21 +19,21 @@ This project involves an in-depth analysis and presentation of key information s
 
 Among the frameworks and standards explored are:
 
-COBIT, focused on IT governance and management;
+✅ COBIT, focused on IT governance and management;
 
-The ISO/IEC 27000 series, including ISO 27001 (Information Security Management Systems), ISO 27002 (Security Controls), ISO 27005 (Risk Management), ISO 27032 (Cybersecurity), and ISO 27035 (Incident Response);
+✅ The ISO/IEC 27000 series, including ISO 27001 (Information Security Management Systems), ISO 27002 (Security Controls), ISO 27005 (Risk Management), ISO 27032 (Cybersecurity), and ISO 27035 (Incident Response);
 
-ISO 31000, which provides general principles for risk management;
+✅ ISO 31000, which provides general principles for risk management;
 
-The NIST SP 800 series and the NIST Cybersecurity Framework (CSF) for security controls and risk mitigation strategies;
+✅ The NIST SP 800 series and the NIST Cybersecurity Framework (CSF) for security controls and risk mitigation strategies;
 
-OWASP and OWISAM, offering methodologies and best practices for web application security and secure administration;
+✅ OWASP and OWISAM, offering methodologies and best practices for web application security and secure administration;
 
-The Modelo de Seguridad y Privacidad de la Información (MSPI), a comprehensive model focused on integrating privacy and security principles into organizational information management;
+✅ The Modelo de Seguridad y Privacidad de la Información (MSPI), a comprehensive model focused on integrating privacy and security principles into organizational information management;
 
-National cybersecurity references such as INCIBE (Spain’s National Cybersecurity Institute) and CN-CERT (China’s National Computer Network Emergency Response Technical Team).
+✅ National cybersecurity references such as INCIBE (Spain’s National Cybersecurity Institute) and CN-CERT (China’s National Computer Network Emergency Response Technical Team).
 
-The project emphasizes the practical application of these standards, comparing their objectives, scope, and implementation benefits. It serves as a resource for professionals seeking to align their organizations with industry best practices, reduce cyber risk exposure, and establish a resilient security posture rooted in globally recognized frameworks.
+✅ The project emphasizes the practical application of these standards, comparing their objectives, scope, and implementation benefits. It serves as a resource for professionals seeking to align their organizations with industry best practices, reduce cyber risk exposure, and establish a resilient security posture rooted in globally recognized frameworks.
 
 <div class="row text-center">
   <div class="col-sm mt-3 mt-md-0">
