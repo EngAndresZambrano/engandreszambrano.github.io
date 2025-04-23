@@ -3,7 +3,7 @@ layout: page
 title: Information Security Standards and Frameworks
 description: This project is based on the research and presentation of the most relevant information security frameworks and policies applied within a business environment. It highlights essential standards such as NIST, ISO/IEC, and COBIT, offering a structured overview of their roles in managing cyber risks and strengthening organizational security posture.
 img: assets/img/int_title.png
-importance: 1
+importance: 4
 category: 2024 academic
 related_publications: true
 images:
