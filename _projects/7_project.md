@@ -145,6 +145,14 @@ def crear_interfaz():
   </div>
 </div>
 
+<h3>🧠 Conclusions</h3>
+<ul>
+  <li>AI-powered prompt engineering accelerated structured code generation</li>
+  <li>GUI application effectively identified public DNS exposures</li>
+  <li>Audit time significantly reduced through automation</li>
+  <li>Prompt iteration ensured resilience against network limitations</li>
+</ul>
+
 <h3>📚 References</h3>
 <ul>
   <li>OpenAI. (2025). ChatGPT (version 4). https://chatgpt.com/</li>
@@ -158,13 +166,3 @@ def crear_interfaz():
   <li>https://protonvpn.com/</li>
   <li>https://whatismyipaddress.com/</li>
 </ul>
-
-<h3>🧠 Conclusions</h3>
-<ul>
-  <li>AI-powered prompt engineering accelerated structured code generation</li>
-  <li>GUI application effectively identified public DNS exposures</li>
-  <li>Audit time significantly reduced through automation</li>
-  <li>Prompt iteration ensured resilience against network limitations</li>
-</ul>
-
-
