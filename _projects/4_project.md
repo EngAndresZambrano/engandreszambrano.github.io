@@ -3,7 +3,7 @@ layout: page
 title: Cryptography and Security - AES, TLS Certificates, and Vulnerability Assessment
 description: This project explores the use of cryptographic algorithms, focusing on AES encryption, TLS certificate verification, and the vulnerabilities that arise from insecure data transmission. It includes a step-by-step guide on AES encryption, certification checks, and web security analysis.
 img: assets/img/img_title4.png
-importance: 4
+importance: 3
 category: 2024 academic
 images:
   lightbox2: true
