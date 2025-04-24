@@ -14,6 +14,11 @@ images:
 
 <p><strong>Note:</strong> This academic project was developed in a controlled, secure virtual environment (internal network, VM with Kali Linux, firewall, VPN) to avoid any potential network risks.</p>
 
+<h3>🎞️ Demo video showing the results of the script.</h3>
+<div class="embed-responsive embed-responsive-16by9 mt-4 mb-4">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZN8UZpA6LJk" allowfullscreen></iframe>
+</div>
+
 <h3>⚙️ Project Objective</h3>
 <ul>
   <li>Design a Python application with a GUI that leverages the Shodan API to identify publicly exposed DNS servers.</li>
