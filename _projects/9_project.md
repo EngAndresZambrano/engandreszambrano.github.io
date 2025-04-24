@@ -20,74 +20,72 @@ The project also includes extensive testing phases that cover domain resolution 
 <h2>🛠️ Environment Prerequisites and Network Diagram</h2>
 <p>This section outlines the software and hardware requirements, as well as a high-level diagram of the virtual network setup involving DNS servers, VPN nodes, and MikroTik router configuration.</p>
 
-<table border="1" style="width:100%; border-collapse: collapse;">
-  <thead>
+<table class="table table-bordered">
+  <thead class="table-light">
     <tr>
-      <th>Hardware</th>
-      <th>Description</th>
-      <th>Characteristics</th>
+      <th colspan="2" class="text-center">Hardware</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td>Description</td>
+      <td>Characteristics</td>
+    </tr>
+    <tr>
       <td>Asus Equipment</td>
       <td>X510QA</td>
-      <td></td>
     </tr>
     <tr>
       <td>RAM</td>
       <td>12 GB</td>
-      <td></td>
     </tr>
     <tr>
-      <td>Processor</td>
-      <td>AMD A12</td>
+      <td>Processor AMD A12</td>
       <td>4 cores</td>
     </tr>
     <tr>
       <td>Disk</td>
       <td>SSD 500 GB</td>
-      <td></td>
+    </tr>
+
+    <tr>
+      <th colspan="2" class="text-center">Software – Host</th>
     </tr>
     <tr>
-      <td>Host Software</td>
       <td>Operating System</td>
       <td>Windows 10</td>
     </tr>
     <tr>
       <td>VirtualBox</td>
-      <td>Version</td>
       <td>7.1.6 r167084</td>
     </tr>
+
     <tr>
-      <td>Virtualized Software</td>
+      <th colspan="2" class="text-center">Software – Virtualized</th>
+    </tr>
+    <tr>
       <td>Mikrotik</td>
       <td>Version 7.18.2</td>
     </tr>
     <tr>
       <td>Ubuntu Server</td>
-      <td>Version</td>
-      <td>24.04.2</td>
+      <td>Version 24.04.2</td>
     </tr>
     <tr>
       <td>Knot Resolver</td>
-      <td>Version</td>
-      <td>5.7.4</td>
+      <td>Version 5.7.4</td>
     </tr>
     <tr>
       <td>OpenVPN</td>
       <td>Version</td>
-      <td></td>
     </tr>
     <tr>
       <td>Kali Linux</td>
-      <td>Version</td>
-      <td>2024.4</td>
+      <td>Version 2024.4</td>
     </tr>
     <tr>
       <td>Windows 10</td>
-      <td>Version</td>
-      <td>22H2</td>
+      <td>Version 22H2</td>
     </tr>
   </tbody>
 </table>
