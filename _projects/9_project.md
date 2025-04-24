@@ -20,6 +20,19 @@ The project also includes extensive testing phases that cover domain resolution 
 <h2>🛠️ Environment Prerequisites and Network Diagram</h2>
 <p>This section outlines the software and hardware requirements, as well as a high-level diagram of the virtual network setup involving DNS servers, VPN nodes, and MikroTik router configuration.</p>
 
+<style>
+  .table th[colspan="2"] {
+    background-color: #f8f9fa;
+    cursor: default;
+    pointer-events: none; /* evita que actúe como un enlace */
+  }
+  .table td, .table th {
+    width: 50%;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+</style>
+
 <table class="table table-bordered">
   <thead class="table-light">
     <tr>
