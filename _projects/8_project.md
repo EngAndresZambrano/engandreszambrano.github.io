@@ -3,7 +3,7 @@ layout: page
 title: SSH and Telnet Audit Application Using Shodan API
 description: A Python application for auditing SSH and Telnet services, leveraging the Shodan API and prompt engineering with AI. The application scans the network and exports findings in CSV format for further analysis.
 img: assets/img/img_title8.png
-importance: 8
+importance: 2
 category: 2025 academic
 ---
 
