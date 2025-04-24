@@ -163,3 +163,33 @@ By understanding the distinct purpose and focus of standards such as ISO 27001, 
 <div class="caption">
    Overview of the main security controls defined by OWASP and OWISAM, focusing on application and information security.
 </div>
+
+<h2>📚 Bibliography</h2>
+<ul>
+  <li>
+    National Institute of Standards and Technology. (2024). <em>The NIST Cybersecurity Framework (CSF) 2.0</em>. NIST CSWP 29. 
+    Recuperado de <a href="https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf" target="_blank">https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf</a>
+  </li>
+  <li>
+    International Organization for Standardization. (2024). <em>ISO/IEC 27001:2022/Amd 1:2024</em>. 
+    Recuperado de <a href="https://www.iso.org/standard/88435.html" target="_blank">https://www.iso.org/standard/88435.html</a>
+  </li>
+  <li>
+    ISACA. (2024). <em>COBIT | Control Objectives for Information Technologies</em>. 
+    Recuperado de <a href="https://www.isaca.org/resources/cobit" target="_blank">https://www.isaca.org/resources/cobit</a>
+  </li>
+  <li>
+    OWASP Foundation. (2024). <em>OWASP Top Ten 2025</em>. 
+    Recuperado de <a href="https://owasp.org/www-project-top-ten/" target="_blank">https://owasp.org/www-project-top-ten/</a>
+  </li>
+  <li>
+    Instituto Nacional de Ciberseguridad (INCIBE). (2024). <em>Nuevas regulaciones de ciberseguridad para vehículos 2024</em>. 
+    Recuperado de <a href="https://www.incibe.es/en/incibe-cert/publications/guides-and-studies/guides/new-2024-cybersecurity-regulations-vehicles" target="_blank">
+      https://www.incibe.es/en/incibe-cert/publications/guides-and-studies/guides/new-2024-cybersecurity-regulations-vehicles</a>
+  </li>
+  <li>
+    China National Computer Network Emergency Response Technical Team (CNCERT). (2024). <em>Weekly Reports</em>. 
+    Recuperado de <a href="https://www.cert.org.cn/publish/english/115/index.html" target="_blank">https://www.cert.org.cn/publish/english/115/index.html</a>
+  </li>
+</ul>
+
