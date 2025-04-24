@@ -92,13 +92,15 @@ The project also includes extensive testing phases that cover domain resolution 
   </tbody>
 </table>
 
+<br><br>
+
 <div class="col-sm mt-3 mt-md-0">
-    <a href="/assets/img/diagp9.png" data-lightbox="standards" data-title="Network Diagram">
-      <img src="/assets/img/diagp9.png" alt="Network Diagram" class="img-fluid rounded z-depth-1" />
-    </a>
-  </div>
+  <a href="/assets/img/diagp9.png" data-lightbox="standards" data-title="Network Diagram">
+    <img src="/assets/img/diagp9.png" alt="Network Diagram" class="img-fluid rounded z-depth-1" />
+  </a>
+</div>
 <div class="caption">
-    Network Diagram.
+  Network Diagram.
 </div>
 
 ---
@@ -107,15 +109,19 @@ The project also includes extensive testing phases that cover domain resolution 
 <h3>📁 Blacklist Implementation via File</h3>
 <p>Blacklists are implemented by maintaining a manually updated list of domains that should be denied resolution. The Py-hole system intercepts these requests to enforce blocking policies.</p>
 
-<div class="row">
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/blackp9.png" title="Black List" class="img-fluid rounded z-depth-1" %}
-    </div>
+<!-- Blacklist File Content (centered image with lightbox) -->
+<div class="row justify-content-center mt-4">
+  <div class="col-sm-6 text-center">
+    <a href="/assets/img/blackp9.png" data-lightbox="blacklist" data-title="Black List">
+      <img src="/assets/img/blackp9.png" alt="Black List" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
 </div>
 
-<div class="caption">
-    BlackList File Content.
+<div class="caption text-center">
+  BlackList File Content.
 </div>
+
 ---
 
 <h2>🧪 Testing the DNS Infrastructure</h2>
@@ -129,41 +135,51 @@ The project also includes extensive testing phases that cover domain resolution 
 <h3>⏱️ Query Response Times from the DMZ</h3>
 <p>Response times are measured from a test machine located within the DMZ to evaluate performance and caching behavior.</p>
 
-<div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/timep9_1g.png" title="Domain Resolution Time – Generic Domain - 1st Attemp" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/timep9_2g.png" title="Domain Resolution Time – Generic Domain - 2nd Attemp" class="img-fluid rounded z-depth-1" %}
-    </div>
+<!-- Generic Domain -->
+<div class="row mt-4">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    <a href="/assets/img/timep9_1g.png" data-lightbox="generic-domain" data-title="Domain Resolution Time – Generic Domain - 1st Attempt">
+      <img src="/assets/img/timep9_1g.png" alt="Generic Domain - 1st Attempt" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    <a href="/assets/img/timep9_2g.png" data-lightbox="generic-domain" data-title="Domain Resolution Time – Generic Domain - 2nd Attempt">
+      <img src="/assets/img/timep9_2g.png" alt="Generic Domain - 2nd Attempt" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
 </div>
-<div class="caption">
-    Domain Resolution Time – Generic Domain.
-</div>
+<div class="caption">Domain Resolution Time – Generic Domain.</div>
 
-<div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/timep9_1geo.png" title="Domain Resolution Time – Geo Domain - 1st Attemp" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/timep9_2geo.png" title="Domain Resolution Time – Geo Domain - 2nd Attemp" class="img-fluid rounded z-depth-1" %}
-    </div>
+<!-- Geo Domain -->
+<div class="row mt-4">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    <a href="/assets/img/timep9_1geo.png" data-lightbox="geo-domain" data-title="Domain Resolution Time – Geo Domain - 1st Attempt">
+      <img src="/assets/img/timep9_1geo.png" alt="Geo Domain - 1st Attempt" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    <a href="/assets/img/timep9_2geo.png" data-lightbox="geo-domain" data-title="Domain Resolution Time – Geo Domain - 2nd Attempt">
+      <img src="/assets/img/timep9_2geo.png" alt="Geo Domain - 2nd Attempt" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
 </div>
-<div class="caption">
-    Domain Resolution Time – Geo Domain.
-</div>
+<div class="caption">Domain Resolution Time – Geo Domain.</div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/timep9_1tl.png" title="Domain Resolution Time – Third Level Domain - 1st Attemp" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/timep9_2tl.png" title="Domain Resolution Time – Third Level Domain - 2nd Attemp" class="img-fluid rounded z-depth-1" %}
-    </div>
+<!-- Third Level Domain -->
+<div class="row mt-4">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    <a href="/assets/img/timep9_1tl.png" data-lightbox="third-level-domain" data-title="Domain Resolution Time – Third Level Domain - 1st Attempt">
+      <img src="/assets/img/timep9_1tl.png" alt="Third Level Domain - 1st Attempt" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    <a href="/assets/img/timep9_2tl.png" data-lightbox="third-level-domain" data-title="Domain Resolution Time – Third Level Domain - 2nd Attempt">
+      <img src="/assets/img/timep9_2tl.png" alt="Third Level Domain - 2nd Attempt" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
 </div>
-<div class="caption">
-    Domain Resolution Time – Third Level Domain
-</div>
+<div class="caption">Domain Resolution Time – Third Level Domain.</div>
+
 ---
 <h3>📱 DNS Query Testing from WAN via Mobile Device</h3>
 <p>Testing involves connecting a smartphone from an external WAN and verifying DNS functionality using tools like Termux and command-line utilities. Query behavior under restrictive conditions is also explored.</p>
@@ -179,15 +195,18 @@ The project also includes extensive testing phases that cover domain resolution 
 <h3>🛡️ DNSSEC Validation</h3>
 <p>This stage evaluates DNSSEC verification for signed domains, ensuring that responses are authenticated and integrity-protected throughout recursive resolution.</p>
 
-<div class="row">
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/dnssec.png" title="DNSSEC Test" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="row justify-content-center mt-4">
+  <div class="col-sm-6 mt-3 mt-md-0 text-center">
+    <a href="/assets/img/dnssec.png" data-lightbox="dnssec" data-title="DNSSEC Test">
+      <img src="/assets/img/dnssec.png" alt="DNSSEC Test" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
 </div>
 
-<div class="caption">
-    DNSSEC Validation with sigok web.
+<div class="caption text-center">
+  DNSSEC Validation with sigok web.
 </div>
+
 ---
 <h2>🧩 Additional Activity: VPN Integration</h2>
 
@@ -196,22 +215,33 @@ The project also includes extensive testing phases that cover domain resolution 
 ---
 <h3>📶 DNS Testing Over VPN from LAN</h3>
 <p>Testing verifies that DNS queries from inside the LAN are routed through the VPN tunnel and do not leak through default routes.</p>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ipp91.png" title="VPN Public IP" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ipp92.png" title="DNS BlackList Block over VPN" class="img-fluid rounded z-depth-1" %}
-    </div>
+
+<div class="row mt-4">
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    <a href="/assets/img/ipp91.png" data-lightbox="vpn" data-title="VPN Public IP">
+      <img src="/assets/img/ipp91.png" alt="VPN Public IP" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    <a href="/assets/img/ipp92.png" data-lightbox="vpn" data-title="DNS BlackList Block over VPN">
+      <img src="/assets/img/ipp92.png" alt="DNS BlackList Block over VPN" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/pingp91.png" title="Ping and Traffic Stops with Down Tunnel" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/pingp92.png" title="Tunnel Stopped" class="img-fluid rounded z-depth-1" %}
-    </div>
+
+<div class="row mt-4">
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    <a href="/assets/img/pingp91.png" data-lightbox="vpn" data-title="Ping and Traffic Stops with Down Tunnel">
+      <img src="/assets/img/pingp91.png" alt="Ping and Traffic Stops with Down Tunnel" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    <a href="/assets/img/pingp92.png" data-lightbox="vpn" data-title="Tunnel Stopped">
+      <img src="/assets/img/pingp92.png" alt="Tunnel Stopped" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
 </div>
+
 ---
 
 <h2>🎞️ Demo Video Showing the Results of the Script</h2>
