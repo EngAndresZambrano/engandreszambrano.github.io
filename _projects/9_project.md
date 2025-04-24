@@ -21,22 +21,40 @@ The project also includes extensive testing phases that cover domain resolution 
 <p>This section outlines the software and hardware requirements, as well as a high-level diagram of the virtual network setup involving DNS servers, VPN nodes, and MikroTik router configuration.</p>
 
 <style>
-  .table th[colspan="2"] {
-    background-color: #f8f9fa;
-    cursor: default;
-    pointer-events: none; /* evita que actúe como un enlace */
+  .custom-table {
+    table-layout: fixed;
+    width: 100%;
   }
-  .table td, .table th {
+
+  .custom-table th[colspan="2"] {
+    background-color: #e0f7fa; /* celeste pastel */
+    color: #333;
+    text-align: center;
+    cursor: default;
+    pointer-events: none;
+  }
+
+  .custom-table td, .custom-table th {
     width: 50%;
     white-space: nowrap;
     vertical-align: middle;
+    padding: 8px;
+    max-width: 300px;
+  }
+
+  .custom-table tr:nth-child(7) th {
+    background-color: #f1f8e9; /* verde pastel */
+  }
+
+  .custom-table tr:nth-child(10) th {
+    background-color: #fce4ec; /* rosa pastel */
   }
 </style>
 
-<table class="table table-bordered">
-  <thead class="table-light">
+<table class="table table-bordered custom-table">
+  <thead>
     <tr>
-      <th colspan="2" class="text-center">Hardware</th>
+      <th colspan="2">Hardware</th>
     </tr>
   </thead>
   <tbody>
@@ -62,7 +80,7 @@ The project also includes extensive testing phases that cover domain resolution 
     </tr>
 
     <tr>
-      <th colspan="2" class="text-center">Software – Host</th>
+      <th colspan="2">Software – Host</th>
     </tr>
     <tr>
       <td>Operating System</td>
@@ -74,7 +92,7 @@ The project also includes extensive testing phases that cover domain resolution 
     </tr>
 
     <tr>
-      <th colspan="2" class="text-center">Software – Virtualized</th>
+      <th colspan="2">Software – Virtualized</th>
     </tr>
     <tr>
       <td>Mikrotik</td>
