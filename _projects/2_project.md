@@ -69,3 +69,18 @@ Real-time dashboard visualization with updated metrics for managerial decision-m
 <div class="caption">
     Real-time dashboard visualization
 </div>
+<h2>📚 Bibliography</h2>
+<ul>
+  <li>Elastic. (2025). <em>Elastic Security for SIEM</em>. Recuperado de <a href="https://www.elastic.co/security/siem" target="_blank">https://www.elastic.co/security/siem</a></li>
+  <li>Elastic. (2025). <em>Documentación oficial de Elastic Stack</em>. Recuperado de <a href="https://www.elastic.co/docs" target="_blank">https://www.elastic.co/docs</a></li>
+  <li>Achek, S. (2024). <em>Building a Basic SIEM with the Elastic Stack: A Step-by-Step Guide</em>. Medium. Recuperado de <a href="https://medium.com/@SamAchek/building-a-basic-siem-with-the-elastic-stack-a-step-by-setp-guide-06840fe09aa7" target="_blank">https://medium.com/@SamAchek/building-a-basic-siem-with-the-elastic-stack-a-step-by-setp-guide-06840fe09aa7</a></li>
+  <li>Hannachi, H. (2024). <em>Elastic SIEM Fundamentals</em>. Medium. Recuperado de <a href="https://hassen-hannachi.medium.com/elastic-elastic-siem-fundamentals-3337d580fafe" target="_blank">https://hassen-hannachi.medium.com/elastic-elastic-siem-fundamentals-3337d580fafe</a></li>
+  <li>Elastic. (2024). <em>Deploy an Elasticsearch cluster</em>. Recuperado de <a href="https://www.elastic.co/docs/deploy-manage/deploy/self-managed/installing-elasticsearch" target="_blank">https://www.elastic.co/docs/deploy-manage/deploy/self-managed/installing-elasticsearch</a></li>
+  <li>Elastic. (2024). <em>Get started with Elastic Stack</em>. Recuperado de <a href="https://www.elastic.co/docs/get-started" target="_blank">https://www.elastic.co/docs/get-started</a></li>
+  <li>Elastic. (2024). <em>Elasticsearch Service Documentation</em>. Recuperado de <a href="https://www.elastic.co/guide/en/cloud/current/index.html" target="_blank">https://www.elastic.co/guide/en/cloud/current/index.html</a></li>
+  <li>Elastic. (2024). <em>Enhancements and bug fixes - January 2024</em>. Recuperado de <a href="https://www.elastic.co/guide/en/cloud/current/ec-release-notes-2024-01.html" target="_blank">https://www.elastic.co/guide/en/cloud/current/ec-release-notes-2024-01.html</a></li>
+  <li>Elastic. (2024). <em>Elastic Accelerates SIEM Data Onboarding with Automatic Import Powered by Search AI</em>. Recuperado de <a href="https://ir.elastic.co/news/news-details/2024/Elastic-Accelerates-SIEM-Data-Onboarding-with-Automatic-Import-Powered-by-Search-AI/default.aspx" target="_blank">https://ir.elastic.co/news/news-details/2024/Elastic-Accelerates-SIEM-Data-Onboarding-with-Automatic-Import-Powered-by-Search-AI/default.aspx</a></li>
+  <li>Logit.io. (2024). <em>Complete Guide To ELK</em>. Recuperado de <a href="https://logit.io/blog/post/elk-stack-guide/" target="_blank">https://logit.io/blog/post/elk-stack-guide/</a></li>
+</ul>
+
+
