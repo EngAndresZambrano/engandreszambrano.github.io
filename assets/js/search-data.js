@@ -90,11 +90,6 @@ ninja.data = [{
           description: "A Python application for auditing SSH and Telnet services, leveraging the Shodan API and prompt engineering with AI. The application scans the network and exports findings in CSV format for further analysis.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
-            },},{id: "projects-implementation-of-a-secure-recursive-dns-infrastructure-with-dnssec-py-hole-knot-resolver-and-vpn-on-ubuntu-server",
-          title: 'Implementation of a Secure Recursive DNS Infrastructure with DNSSEC, Py-hole, Knot Resolver and...',
-          description: "This project focuses on building and securing a recursive DNS infrastructure using Ubuntu Server, Py-hole, and Knot Resolver. It includes DNSSEC, blacklist-based domain filtering, DNS-over-TLS/HTTPS, and VPN integration with OpenVPN and ProtonVPN, all deployed in a virtualized network environment managed by a MikroTik router.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'email',
