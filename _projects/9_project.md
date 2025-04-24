@@ -92,12 +92,11 @@ The project also includes extensive testing phases that cover domain resolution 
   </tbody>
 </table>
 
-<div class="row">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/diagp9.png" title="Network Diagram" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
+<div class="col-sm mt-3 mt-md-0">
+    <a href="/assets/img/diagp9.png" data-lightbox="standards" data-title="Network Diagram">
+      <img src="/assets/img/diagp9.png" alt="Network Diagram" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
 <div class="caption">
     Network Diagram.
 </div>
