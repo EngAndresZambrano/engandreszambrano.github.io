@@ -3,7 +3,7 @@ layout: page
 title: IDS/IPS Implementation Using PfSense and Suricata
 description: This project outlines the installation, configuration, and testing of an IDS/IPS/NSM solution using PfSense for perimeter security and Suricata for intrusion detection, prevention, and network security monitoring.
 img: assets/img/img_title6.png
-importance: 6
+importance: 5
 category: 2025 academic
 ---
 
