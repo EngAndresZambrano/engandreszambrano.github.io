@@ -32,7 +32,7 @@ The project was developed in a virtualized environment including:
 - **Windows test client**
 - Auxiliary tools like Snort, MaxMind, and WatchDog
 
-💡 *[SUGERENCIA: Aquí puedes agregar un diagrama de red usando lightbox]*
+💡 Sugerencia
 
 ## ⚙️ Installation and Configuration
 
