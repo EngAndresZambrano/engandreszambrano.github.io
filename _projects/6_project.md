@@ -97,6 +97,18 @@ To improve threat detection and context awareness:
 
 These tools help **Suricata** correlate suspicious activity with known threats and geographic locations, enhancing situational awareness.
 
+<div class="row justify-content-center mt-4">
+  <div class="col-sm-6 text-center">
+    <a href="/assets/img/snortp6.png" data-lightbox="Snort and MaxMind Integration" data-title="Snort and MaxMind Integration">
+      <img src="/assets/img/snortp6.png" alt="Snort and MaxMind Integration" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+
+<div class="caption text-center">
+  Snort and MaxMind Integration.
+</div>
+
 ---
 
 ## 🐶 WatchDog Installation
@@ -199,6 +211,20 @@ Enhance blocking with **FireHOL IP Lists**:
 - Import known **malicious IPs**.
 - Use them as a first layer of **automated blocking** in Suricata.
 
+<div class="row mt-4">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    <a href="/assets/img/firep6.png" data-lightbox="Enabling FireHOL" data-title="Enabling FireHOL">
+      <img src="/assets/img/firep6.png" alt="Enabling FireHOL" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    <a href="/assets/img/listp6.png" data-lightbox="Enabling IP Lists" data-title="Enabling IP Lists">
+      <img src="/assets/img/listp6.png" alt="Enabling IP Lists" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+<div class="caption">Enabling FireHOL IP Lists.</div>
+
 ---
 
 ### 🔌 Interface Assignment in Suricata
@@ -208,6 +234,18 @@ Define monitored interfaces:
 - Assign **LAN**, **WAN**, and **DMZ** to Suricata.
 - Choose **IDS** (monitoring only) or **IPS** (active blocking) per interface.
 
+<div class="row justify-content-center mt-4">
+  <div class="col-sm-6 text-center">
+    <a href="/assets/img/wamp6.png" data-lightbox="Interface Assignment in Suricata" data-title="Interface Assignment in Suricata">
+      <img src="/assets/img/wamp6.png" alt="Interface Assignment in Suricata" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+
+<div class="caption text-center">
+  Interface Assignment in Suricata.
+</div>
+
 ---
 
 ## 🐾 WatchDog Configuration
@@ -215,6 +253,18 @@ Define monitored interfaces:
 - Define **triggers** for Suricata service crashes.
 - Optionally enable **email alerts** for administrative notification.
 - Ensure Suricata **automatically restarts** to maintain protection.
+
+<div class="row justify-content-center mt-4">
+  <div class="col-sm-6 text-center">
+    <a href="/assets/img/watchintp6.png" data-lightbox="WatchDog Integration" data-title="WatchDog Integration">
+      <img src="/assets/img/watchintp6.png" alt="WatchDog Integration" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+
+<div class="caption text-center">
+  WatchDog Configuration.
+</div>
 
 ---
 
@@ -227,6 +277,30 @@ Use tools like **Nmap** to validate:
 - **Packet filtering** and access control.
 - **Port-level restrictions** and proper system response behavior.
 
+<div class="row justify-content-center mt-4">
+  <div class="col-sm-6 text-center">
+    <a href="/assets/img/nmapp6.png" data-lightbox="Nmap" data-title="Nmap">
+      <img src="/assets/img/nmapp6.png" alt="Nmap" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+
+<div class="caption text-center">
+  Nmap Scan attempt.
+</div>
+
+<div class="row justify-content-center mt-4">
+  <div class="col-sm-6 text-center">
+    <a href="/assets/img/blockp6.png" data-lightbox="Suspicious IP" data-title="Suspicious IP">
+      <img src="/assets/img/blockp6.png" alt="Suspicious IP" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+
+<div class="caption text-center">
+  Blocking and adding List Suspicious IP.
+</div>
+
 ---
 
 ### 🧪 Ubuntu DMZ Tests
@@ -235,6 +309,18 @@ From the Ubuntu DMZ machine:
 
 - Generate both **legitimate** and **malicious** traffic.
 - Validate **egress control** and **Suricata detections**.
+
+<div class="row justify-content-center mt-4">
+  <div class="col-sm-6 text-center">
+    <a href="/assets/img/blocklp6.png" data-lightbox="Suspicious Bad Traffic" data-title="Suspicious Bad Traffic">
+      <img src="/assets/img/blocklp6.png" alt="Suspicious Bad Traffic" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+
+<div class="caption text-center">
+  Bad Traffic.
+</div>
 
 ---
 
@@ -252,6 +338,19 @@ Observe:
 - **Blocking actions**
 - **Log entries** in the Suricata dashboard.
 
+<div class="row justify-content-center mt-4">
+  <div class="col-sm-6 text-center">
+    <a href="/assets/img/icmpbp6.png" data-lightbox="IP Blocked" data-title="IP Blocked">
+      <img src="/assets/img/icmpbp6.png" alt="IP Blocked" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+
+<div class="caption text-center">
+  IP Blocked.
+</div>
+
+
 ---
 
 ### 🚨 Initial Alert Testing
@@ -268,6 +367,18 @@ Using a **Windows-based host**:
 
 - Launch tools like **Metasploit**, **Netcat**, or **Nmap**.
 - Evaluate Suricata’s ability to **detect**, **log**, and **block** these intrusions.
+
+<div class="row justify-content-center mt-4">
+  <div class="col-sm-6 text-center">
+    <a href="/assets/img/icmpb1p6.png" data-lightbox="SSH Scan Blocked" data-title="SSH Scan Blocked">
+      <img src="/assets/img/icmpb1p6.png" alt="SSH Scan Blocked" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+
+<div class="caption text-center">
+  SSH Scan Attempt Blocked.
+</div>
 
 ---
 
