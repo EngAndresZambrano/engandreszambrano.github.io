@@ -45,12 +45,7 @@ The first step involves deploying **PfSense** in a virtual machine environment.
 - Define the **LAN**, **WAN**, and **DMZ** interfaces according to the desired network topology.
 - Assign static IP addresses to ensure consistent routing.
 
-💡 *[SUGERENCIA: Puedes incluir aquí una captura de pantalla del asistente de instalación de PfSense]*
-
-```html
-<a href="/assets/img/pfsense_install.png" data-lightbox="install" data-title="PfSense Installation Wizard">
-  <img src="/assets/img/pfsense_install.png" alt="PfSense Wizard" class="img-fluid rounded z-depth-1" />
-</a>
+💡 SUGERENCIA: Puedes incluir aquí una captura de pantalla del asistente de instalación de PfSense
 
 ## 🛡️ Suricata Installation
 
@@ -61,12 +56,7 @@ Once **PfSense** is operational, proceed with installing **Suricata** as the IDS
 - Enable **IDS/IPS mode** to allow inline packet inspection and real-time blocking.
 - Select rule sources such as **Emerging Threats Open** and update them to ensure up-to-date threat detection.
 
-💡 *[SUGERENCIA: Puedes agregar aquí una captura del paquete de instalación de Suricata en PfSense]*
-
-```html
-<a href="/assets/img/suricata_install.png" data-lightbox="suricata" data-title="Installing Suricata in PfSense">
-  <img src="/assets/img/suricata_install.png" alt="Suricata Installation" class="img-fluid rounded z-depth-1" />
-</a>
+💡 SUGERENCIA: Puedes agregar aquí una captura del paquete de instalación de Suricata en PfSense
 
 ## 🧠 Snort and MaxMind Integration
 
@@ -103,7 +93,7 @@ Establish three main zones:
 
 Manually assign **static IPs** to interfaces to prevent conflicts and maintain routing clarity.
 
-💡 *[SUGERENCIA: Puedes insertar un diagrama aquí con la asignación de interfaces]*
+💡 SUGERENCIA: Puedes insertar un diagrama aquí con la asignación de interfaces
 
 ---
 
@@ -136,12 +126,7 @@ Deploy a **hardened Ubuntu server** in the DMZ:
 - **Outbound access** is strictly limited.
 - Serves as a **honeypot** or vulnerable server for testing attack scenarios.
 
-💡 *[SUGERENCIA: Puedes mostrar aquí la terminal de Ubuntu mostrando interfaces o logs]*
-
-```html
-<a href="/assets/img/ubuntu_dmz.png" data-lightbox="dmz" data-title="Ubuntu DMZ Network Setup">
-  <img src="/assets/img/ubuntu_dmz.png" alt="Ubuntu DMZ" class="img-fluid rounded z-depth-1" />
-</a>
+💡 SUGERENCIA: Puedes mostrar aquí la terminal de Ubuntu mostrando interfaces o logs
 
 ## 🧠 Suricata Advanced Configuration
 
