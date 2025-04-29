@@ -34,10 +34,6 @@ The project was developed in a virtualized environment including:
 
 💡 *[SUGERENCIA: Aquí puedes agregar un diagrama de red usando lightbox]*
 
-<a href="/assets/img/network_diagram.png" data-lightbox="environment" data-title="Network Diagram">
-  <img src="/assets/img/network_diagram.png" alt="Network Diagram" class="img-fluid rounded z-depth-1" />
-</a>
-
 ## ⚙️ Installation and Configuration
 
 ### 🔧 PfSense Installation
