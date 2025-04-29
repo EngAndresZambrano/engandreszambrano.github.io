@@ -32,7 +32,17 @@ The project was developed in a virtualized environment including:
 - **Windows test client**
 - Auxiliary tools like Snort, MaxMind, and WatchDog
 
-💡 Sugerencia
+<div class="row justify-content-center mt-4">
+  <div class="col-sm-6 text-center">
+    <a href="/assets/img/diagp6.png" data-lightbox="Network Diagram" data-title="Network Diagram">
+      <img src="/assets/img/diagp6.png" alt="Network Diagram" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+
+<div class="caption text-center">
+  Network Diagram.
+</div>
 
 ## ⚙️ Installation and Configuration
 
@@ -45,7 +55,17 @@ The first step involves deploying **PfSense** in a virtual machine environment.
 - Define the **LAN**, **WAN**, and **DMZ** interfaces according to the desired network topology.
 - Assign static IP addresses to ensure consistent routing.
 
-💡 SUGERENCIA: Puedes incluir aquí una captura de pantalla del asistente de instalación de PfSense
+<div class="row justify-content-center mt-4">
+  <div class="col-sm-6 text-center">
+    <a href="/assets/img/installp6.png" data-lightbox="PfSense Installation" data-title="PfSense Installation">
+      <img src="/assets/img/installp6.png" alt="PfSense Installation" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+
+<div class="caption text-center">
+  PfSense Installation.
+</div>
 
 ## 🛡️ Suricata Installation
 
@@ -56,7 +76,17 @@ Once **PfSense** is operational, proceed with installing **Suricata** as the IDS
 - Enable **IDS/IPS mode** to allow inline packet inspection and real-time blocking.
 - Select rule sources such as **Emerging Threats Open** and update them to ensure up-to-date threat detection.
 
-💡 SUGERENCIA: Puedes agregar aquí una captura del paquete de instalación de Suricata en PfSense
+<div class="row justify-content-center mt-4">
+  <div class="col-sm-6 text-center">
+    <a href="/assets/img/surip6.png" data-lightbox="Suricata Installation" data-title="Suricata Installation">
+      <img src="/assets/img/surip6.png" alt="Suricata Installation" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+
+<div class="caption text-center">
+  Suricata Installation.
+</div>
 
 ## 🧠 Snort and MaxMind Integration
 
@@ -79,6 +109,18 @@ For system resilience:
 
 This ensures continuous IDS/IPS protection with minimal manual intervention.
 
+<div class="row justify-content-center mt-4">
+  <div class="col-sm-6 text-center">
+    <a href="/assets/img/watchp6.png" data-lightbox="WatchDog Installation" data-title="WatchDog Installation">
+      <img src="/assets/img/watchp6.png" alt="WatchDog Installation" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+
+<div class="caption text-center">
+  WatchDog Installation.
+</div>
+
 ---
 
 ## 🔐 Firewall Configuration
@@ -93,7 +135,17 @@ Establish three main zones:
 
 Manually assign **static IPs** to interfaces to prevent conflicts and maintain routing clarity.
 
-💡 SUGERENCIA: Puedes insertar un diagrama aquí con la asignación de interfaces
+<div class="row justify-content-center mt-4">
+  <div class="col-sm-6 text-center">
+    <a href="/assets/img/interp6.png" data-lightbox="Interface Configuration" data-title="Interface Configuration">
+      <img src="/assets/img/interp6.png" alt="Interface Configuration" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+
+<div class="caption text-center">
+  Interface Configuration.
+</div>
 
 ---
 
@@ -126,7 +178,17 @@ Deploy a **hardened Ubuntu server** in the DMZ:
 - **Outbound access** is strictly limited.
 - Serves as a **honeypot** or vulnerable server for testing attack scenarios.
 
-💡 SUGERENCIA: Puedes mostrar aquí la terminal de Ubuntu mostrando interfaces o logs
+<div class="row justify-content-center mt-4">
+  <div class="col-sm-6 text-center">
+    <a href="/assets/img/ubup6.png" data-lightbox="Ubuntu IP Configuration" data-title="Ubuntu IP Configuration">
+      <img src="/assets/img/ubup6.png" alt="Ubuntu IP Configuration" class="img-fluid rounded z-depth-1" />
+    </a>
+  </div>
+</div>
+
+<div class="caption text-center">
+  Ubuntu IP Configuration DMZ.
+</div>
 
 ## 🧠 Suricata Advanced Configuration
 
